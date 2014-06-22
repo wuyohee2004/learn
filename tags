@@ -1,0 +1,612 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	c/list/c++/agri/test.cc	/^		A()$/;"	f	class:A
+A	c/list/c++/agri/test.cc	/^class A$/;"	c	file:
+A	c/test-var.c	/^union A{$/;"	u	file:
+At91NandIsReady	boot/arm/atmel/at91sam926x.S	/^At91NandIsReady:$/;"	l
+At91PioConfPeriA	boot/arm/atmel/pio_at91sam926x.c	/^void At91PioConfPeriA(UINT32 nPioIdx, UINT32 dwVal)$/;"	f
+B	c/list/c++/agri/test.cc	/^class B:public A<int>$/;"	c	file:
+B	c/list/c++/test.cc	/^		B(void) : Test()$/;"	f	class:B
+B	c/list/c++/test.cc	/^class B : Test$/;"	c	file:
+BOOL	c/list/lq.h	/^typedef enum{False,True} BOOL;$/;"	t	typeref:enum:__anon3
+BOOL	c/list/lstack.h	/^typedef enum{False,True} BOOL;$/;"	t	typeref:enum:__anon5
+BOOL	c/list/q.h	/^typedef enum{False,True} BOOL;$/;"	t	typeref:enum:__anon4
+BOOL	c/list/stack.h	/^	} BOOL;$/;"	t	typeref:enum:__anon2
+BOOL	c/test-var.c	/^enum BOOL{$/;"	g	file:
+BRDIV	boot/arm/samsung/uart_s3c24xx.c	27;"	d	file:
+BootMenu	boot/arm/head.S	/^BootMenu:$/;"	l
+BootMenu	boot/init.c	/^void BootMenu(void)$/;"	f
+BottomEntry	boot/init.c	/^typedef void (*BottomEntry)(void);$/;"	t	file:
+CC	MF-test/Makefile	/^CC=gcc$/;"	m
+DEVICE	c/application/cdrom.c	6;"	d	file:
+FUNC	c/point.c	/^typedef int (*FUNC)(int a[]);$/;"	t	file:
+False	c/list/lq.h	/^typedef enum{False,True} BOOL;$/;"	e	enum:__anon3
+False	c/list/lstack.h	/^typedef enum{False,True} BOOL;$/;"	e	enum:__anon5
+False	c/list/q.h	/^typedef enum{False,True} BOOL;$/;"	e	enum:__anon4
+False	c/list/stack.h	/^		False,True$/;"	e	enum:__anon2
+GTopHalfEntry	boot/arm/head.S	/^GTopHalfEntry:$/;"	l
+GtInitMemCtrl	boot/arm/atmel/at91sam926x.S	/^GtInitMemCtrl:$/;"	l
+GtInitMemCtrl	boot/arm/samsung/s3c24xx.c	/^int GtInitMemCtrl(void)$/;"	f
+GtInitNand	boot/arm/atmel/at91sam926x.S	/^GtInitNand:$/;"	l
+GtInitNand	boot/arm/samsung/nand_s3c24x0.c	/^int GtInitNand(void)$/;"	f
+GtInitSoC	boot/arm/atmel/at91sam926x.S	/^GtInitSoC:$/;"	l
+GtInitSoC	boot/arm/samsung/s3c24xx.c	/^int GtInitSoC(void)$/;"	f
+GtInitUart	boot/arm/atmel/at91sam926x.S	/^GtInitUart:$/;"	l
+GtInitUart	boot/arm/samsung/uart_s3c24xx.c	/^int GtInitUart(void)$/;"	f
+GtNandDriverInit	boot/nand.c	/^int GtNandDriverInit(UINT32 dwCmmd, UINT32 dwAddr, UINT32 dwData, READY_FUNC NandIsReady)$/;"	f
+GtNandLoad	boot/nand.c	/^int GtNandLoad(void)$/;"	f
+GtSerialLoad	boot/arm/kermit.S	/^GtSerialLoad:$/;"	l
+GtUartReadByte	boot/arm/atmel/at91sam926x.S	/^GtUartReadByte:$/;"	l
+GtUartReadByte	boot/arm/samsung/uart_s3c24xx.c	/^UINT8 GtUartReadByte(void)$/;"	f
+GtUartWriteByte	boot/arm/atmel/at91sam926x.S	/^GtUartWriteByte:$/;"	l
+GtUartWriteByte	boot/arm/samsung/uart_s3c24xx.c	/^void GtUartWriteByte(UINT8 bData)$/;"	f
+Hang	boot/arm/head.S	/^Hang:$/;"	l
+HashMap	c/list/c++/agri/hash.cc	/^		HashMap()$/;"	f	class:HashMap
+HashMap	c/list/c++/agri/hash.cc	/^class HashMap$/;"	c	file:
+Height	c/list/c++/agri/bitree.cc	/^		int Height()$/;"	f	class:binTree
+InitGpio	boot/arm/samsung/uart_s3c24xx.c	/^static __INLINE__ void InitGpio(void)$/;"	f	file:
+IsLargePage	boot/nand.c	/^static int IsLargePage()$/;"	f	file:
+IsPower2	boot/nand.c	/^static int IsPower2(UINT32 n)$/;"	f	file:
+IsReady	boot/nand.c	/^	READY_FUNC IsReady;$/;"	m	struct:__anon1	file:
+KERM_ACK_LEN	boot/arm/kermit.S	/^#define KERM_ACK_LEN  0x10$/;"	d
+KERM_BUF_LEN	boot/arm/kermit.S	/^#define KERM_BUF_LEN   128$/;"	d
+KEY	c/application/msgQ.c	6;"	d	file:
+KEY	c/application/sem.c	38;"	d	file:
+KEY	c/application/shm.c	5;"	d	file:
+L1	boot/arm/atmel/at91sam926x.S	/^L1:$/;"	l
+L2	boot/arm/atmel/at91sam926x.S	/^L2:$/;"	l
+L3	boot/arm/atmel/at91sam926x.S	/^L3:$/;"	l
+L4	boot/arm/atmel/at91sam926x.S	/^L4:$/;"	l
+LeafNum	c/list/c++/agri/bitree.cc	/^		int LeafNum()$/;"	f	class:binTree
+List	c/list/c++/agri/antiCir.cc	/^		List()$/;"	f	class:List
+List	c/list/c++/agri/antiCir.cc	/^		List(T arr[],int n)$/;"	f	class:List
+List	c/list/c++/agri/antiCir.cc	/^class List$/;"	c	file:
+List	c/list/c++/agri/bilist.cc	/^List<T>::List()$/;"	f	class:List
+List	c/list/c++/agri/bilist.cc	/^List<T>::List(T arr[],int n)$/;"	f	class:List
+List	c/list/c++/agri/bilist.cc	/^class List$/;"	c	file:
+List	c/list/c++/agri/hlist.cc	/^		List(){}$/;"	f	class:List
+List	c/list/c++/agri/hlist.cc	/^List<T>::List(T arr[],int n)$/;"	f	class:List
+List	c/list/c++/agri/hlist.cc	/^class List$/;"	c	file:
+List	c/list/c++/agri/list.h	/^List<T>::List()$/;"	f	class:List
+List	c/list/c++/agri/list.h	/^List<T>::List(T arr[],int n)$/;"	f	class:List
+List	c/list/c++/agri/list.h	/^class List$/;"	c
+List	c/list/c++/prac/list.cc	/^		List()$/;"	f	class:List
+List	c/list/c++/prac/list.cc	/^		List(T arr[],int n)$/;"	f	class:List
+List	c/list/c++/prac/list.cc	/^class List$/;"	c	file:
+MyHashMap	c/list/c++/agri/hash.cc	/^		MyHashMap():HashMap(){}$/;"	f	class:MyHashMap
+MyHashMap	c/list/c++/agri/hash.cc	/^class MyHashMap:public HashMap<const char *,const char *>$/;"	c	file:
+Mylist	c/list/c++/agri/antiCir.cc	/^		Mylist():List<int>(){};$/;"	f	class:Mylist
+Mylist	c/list/c++/agri/antiCir.cc	/^		Mylist(int arr[],int n):List<int>(arr,n){};$/;"	f	class:Mylist
+Mylist	c/list/c++/agri/antiCir.cc	/^class Mylist:public List<int>$/;"	c	file:
+Mylist	c/list/c++/agri/bilist.cc	/^		Mylist():List(){}$/;"	f	class:Mylist
+Mylist	c/list/c++/agri/bilist.cc	/^		Mylist(int arr[],int n):List(arr,n){}$/;"	f	class:Mylist
+Mylist	c/list/c++/agri/bilist.cc	/^class Mylist:public List<int>$/;"	c	file:
+Mylist	c/list/c++/agri/hlist.cc	/^		Mylist():List(){}$/;"	f	class:Mylist
+Mylist	c/list/c++/agri/hlist.cc	/^		Mylist(int arr[],int n):List(arr,n){}$/;"	f	class:Mylist
+Mylist	c/list/c++/agri/hlist.cc	/^class Mylist:public List<int>$/;"	c	file:
+Mylist	c/list/c++/agri/list.h	/^		Mylist():List(){}$/;"	f	class:Mylist
+Mylist	c/list/c++/agri/list.h	/^		Mylist(int arr[],int n):List<int>(arr,n){}$/;"	f	class:Mylist
+Mylist	c/list/c++/agri/list.h	/^class Mylist:public List<int>$/;"	c
+Mylist	c/list/c++/prac/list.cc	/^		Mylist():List<int>(){};$/;"	f	class:Mylist
+Mylist	c/list/c++/prac/list.cc	/^		Mylist(int arr[],int n):List<int>(arr,n){};$/;"	f	class:Mylist
+Mylist	c/list/c++/prac/list.cc	/^class Mylist:public List<int>$/;"	c	file:
+N	c/list/agri/sort.h	4;"	d
+N	c/list/sort.h	4;"	d
+NandBoot	boot/arm/head.S	/^NandBoot:$/;"	l
+NandCmd	boot/nand.c	/^static void NandCmd(UINT32 nCmd, int nPageIndex, int nPageOffset)$/;"	f	file:
+NandReadByte	boot/nand.c	/^static __INLINE__ BYTE NandReadByte(void)$/;"	f	file:
+NandReadPage	boot/nand.c	/^static UINT8 *NandReadPage(UINT32 dwPageIndex, UINT8 *pBuff)$/;"	f	file:
+NandWaitReady	boot/nand.c	/^static int NandWaitReady(void)$/;"	f	file:
+NandWriteAddr	boot/nand.c	/^static __INLINE__ void NandWriteAddr(UINT8 bAddr)$/;"	f	file:
+NandWriteCmmd	boot/nand.c	/^static __INLINE__ void NandWriteCmmd(UINT32 bCmmd)$/;"	f	file:
+Node	c/list/c++/agri/antiCir.cc	/^		Node(T d)$/;"	f	class:Node
+Node	c/list/c++/agri/antiCir.cc	/^class Node$/;"	c	file:
+Node	c/list/c++/agri/bilist.cc	/^		Node()$/;"	f	class:Node
+Node	c/list/c++/agri/bilist.cc	/^		Node(T d)$/;"	f	class:Node
+Node	c/list/c++/agri/bilist.cc	/^class Node$/;"	c	file:
+Node	c/list/c++/agri/bitree.cc	/^		Node(T d)$/;"	f	class:Node
+Node	c/list/c++/agri/bitree.cc	/^class Node$/;"	c	file:
+Node	c/list/c++/agri/hash.cc	/^		Node(T1 k,T2 v)$/;"	f	class:Node
+Node	c/list/c++/agri/hash.cc	/^class Node$/;"	c	file:
+Node	c/list/c++/agri/hlist.cc	/^		Node()$/;"	f	class:Node
+Node	c/list/c++/agri/hlist.cc	/^		Node(T d)$/;"	f	class:Node
+Node	c/list/c++/agri/hlist.cc	/^class Node$/;"	c	file:
+Node	c/list/c++/agri/list.h	/^		Node(T d)$/;"	f	class:Node
+Node	c/list/c++/agri/list.h	/^class Node$/;"	c
+Node	c/list/c++/agri/tree.cc	/^		Node(T d)$/;"	f	class:Node
+Node	c/list/c++/agri/tree.cc	/^class Node$/;"	c	file:
+Node	c/list/c++/prac/list.cc	/^		Node(T d)$/;"	f	class:Node
+Node	c/list/c++/prac/list.cc	/^class Node$/;"	c	file:
+NodeDelete	c/list/c++/agri/antiCir.cc	/^		void NodeDelete(T d)$/;"	f	class:List
+NodeDelete	c/list/c++/prac/list.cc	/^		void NodeDelete(T d)$/;"	f	class:List
+NodeInsert	c/list/c++/agri/antiCir.cc	/^		void NodeInsert(T d)$/;"	f	class:List
+NodeInsert	c/list/c++/prac/list.cc	/^		void NodeInsert(T d)$/;"	f	class:List
+NodeNum	c/list/c++/agri/bitree.cc	/^		int NodeNum()$/;"	f	class:binTree
+NodeReverse1	c/list/c++/agri/antiCir.cc	/^		void NodeReverse1()$/;"	f	class:List
+NodeReverse1	c/list/c++/prac/list.cc	/^		void NodeReverse1()$/;"	f	class:List
+NodeReverse2	c/list/c++/agri/antiCir.cc	/^		void NodeReverse2()$/;"	f	class:List
+NodeReverse2	c/list/c++/prac/list.cc	/^		void NodeReverse2()$/;"	f	class:List
+NodeReverse3	c/list/c++/agri/antiCir.cc	/^		void NodeReverse3()$/;"	f	class:List
+NodeReverse3	c/list/c++/prac/list.cc	/^		void NodeReverse3()$/;"	f	class:List
+Nodetraversal	c/list/c++/agri/antiCir.cc	/^		void Nodetraversal()$/;"	f	class:List
+Nodetraversal	c/list/c++/prac/list.cc	/^		void Nodetraversal()$/;"	f	class:List
+OBJS_ASM	boot/arm/atmel/Makefile	/^OBJS_ASM = at91sam926x.o $/;"	m
+OBJS_ASM	boot/arm/samsung/Makefile	/^OBJS_ASM = $/;"	m
+OBJS_C	boot/Makefile	/^OBJS_C = init.o nand.o stdio.o kermit.o$/;"	m
+OBJS_C	boot/arm/Makefile	/^OBJS_C = cpuid.o$/;"	m
+OBJS_C	boot/arm/atmel/Makefile	/^OBJS_C = pio_at91sam926x.o$/;"	m
+OBJS_C	boot/arm/samsung/Makefile	/^OBJS_C = s3c24xx.o uart_s3c24xx.o $(objs-y)$/;"	m
+OBJS_S	boot/arm/Makefile	/^OBJS_S = head.o$/;"	m
+Queue	c/list/c++/agri/stack.h	/^		Queue(int s)$/;"	f	class:Queue
+Queue	c/list/c++/agri/stack.h	/^class Queue$/;"	c
+ReadID	boot/arm/cpuid.c	/^void ReadID(void)$/;"	f
+S3c24x0NandIsReady	boot/arm/samsung/nand_s3c24x0.c	/^static int S3c24x0NandIsReady(void)$/;"	f	file:
+S3c24xxUartInitOne	boot/arm/samsung/uart_s3c24xx.c	/^static __INLINE__ void S3c24xxUartInitOne(UINT32 nIdx)$/;"	f	file:
+SIZE	c/list/c++/agri/hash.cc	/^		static const int SIZE = 100;  $/;"	m	class:HashMap	file:
+SRCS_ASM	boot/arm/atmel/Makefile	/^SRCS_ASM := $(OBJS_ASM:.o=.S)$/;"	m
+SRCS_ASM	boot/arm/samsung/Makefile	/^SRCS_ASM := $(OBJS_ASM:.o=.S)$/;"	m
+SRCS_C	boot/Makefile	/^SRCS_C := $(OBJS_C:.o=.c)$/;"	m
+SRCS_C	boot/arm/Makefile	/^SRCS_C := $(OBJS_C:.o=.c)$/;"	m
+SRCS_C	boot/arm/atmel/Makefile	/^SRCS_C := $(OBJS_C:.o=.c)$/;"	m
+SRCS_C	boot/arm/samsung/Makefile	/^SRCS_C := $(OBJS_C:.o=.c)$/;"	m
+SRCS_S	boot/arm/Makefile	/^SRCS_S := $(OBJS_S:.o=.S)$/;"	m
+SUBDIRS	boot/Makefile	/^SUBDIRS = $(ARCH)$/;"	m
+SUBDIRS	boot/arm/Makefile	/^SUBDIRS = $(SOC_VENDOR)$/;"	m
+SUB_BUILT_IN_OBJS	boot/Makefile	/^SUB_BUILT_IN_OBJS := $(foreach n, $(SUBDIRS), $(n)\/$(BUILT_IN_OBJ))$/;"	m
+SUB_BUILT_IN_OBJS	boot/arm/Makefile	/^SUB_BUILT_IN_OBJS := $(foreach n, $(SUBDIRS), $(n)\/$(BUILT_IN_OBJ))$/;"	m
+SWAP	c/list/agri/sort.h	8;"	d
+SWAP	c/list/sort.h	5;"	d
+SerialBoot	boot/arm/head.S	/^SerialBoot:$/;"	l
+Stack	c/list/c++/agri/stack.cc	/^		Stack(int n)$/;"	f	class:Stack
+Stack	c/list/c++/agri/stack.cc	/^class Stack$/;"	c	file:
+Stack	c/list/c++/agri/stack.h	/^		Stack(int n)$/;"	f	class:Stack
+Stack	c/list/c++/agri/stack.h	/^class Stack$/;"	c
+StartGbios	boot/arm/head.S	/^StartGbios:$/;"	l
+StartGbios	boot/init.c	/^void StartGbios(void)$/;"	f
+SubNum	c/list/c++/agri/bitree.cc	/^		int SubNum()$/;"	f	class:binTree
+TIMEOUT_COUNT	boot/nand.c	50;"	d	file:
+Test	c/list/c++/test.cc	/^		Test(void)$/;"	f	class:Test
+Test	c/list/c++/test.cc	/^class Test$/;"	c	file:
+Tree	c/list/c++/agri/tree.cc	/^		Tree()$/;"	f	class:Tree
+Tree	c/list/c++/agri/tree.cc	/^		Tree(int n)$/;"	f	class:Tree
+Tree	c/list/c++/agri/tree.cc	/^class Tree$/;"	c	file:
+True	c/list/lq.h	/^typedef enum{False,True} BOOL;$/;"	e	enum:__anon3
+True	c/list/lstack.h	/^typedef enum{False,True} BOOL;$/;"	e	enum:__anon5
+True	c/list/q.h	/^typedef enum{False,True} BOOL;$/;"	e	enum:__anon4
+True	c/list/stack.h	/^		False,True$/;"	e	enum:__anon2
+U16ToStr	boot/stdio.c	/^void U16ToStr(UINT32 val, char str[])$/;"	f
+U32ToStr	boot/stdio.c	/^void U32ToStr(UINT32 val, char str[])$/;"	f
+U8ToStr	boot/stdio.c	/^void U8ToStr(UINT32 val, char str[])$/;"	f
+UARTn_BASE	boot/arm/samsung/uart_s3c24xx.c	15;"	d	file:
+UartPuts	boot/stdio.c	/^void UartPuts(const char *pStr)$/;"	f
+__buf	c/application/sem.c	/^	struct seminfo *__buf;$/;"	m	union:semun	typeref:struct:semun::seminfo	file:
+__default	boot/arm/head.S	/^__default:$/;"	l
+__get_pkt	boot/arm/kermit.S	/^__get_pkt:$/;"	l
+__init__	powertool/setup.py	/^	def __init__(self, user):$/;"	m	class:apps_setup
+__init__	powertool/tree.py	/^	def __init__(self):$/;"	m	class:dir_tree
+__switch	boot/arm/head.S	/^__switch:$/;"	l
+a	c/application/fork.c	/^int a = 10;$/;"	v
+a	c/list/c++/test.cc	/^		int a;$/;"	m	class:Test	file:
+a	c/test-var.c	/^	long a;$/;"	m	union:A	file:
+abstract_data	boot/arm/kermit.S	/^abstract_data:$/;"	l
+action	test/option.py	/^				action ='store',$/;"	v
+action	test/option.py	/^				action ='store_false',$/;"	v
+adjust_heap	c/list/heap_sort.c	/^void adjust_heap(data_t arr[],int len,int i)$/;"	f
+adjust_heap	c/list/heap_sort2.c	/^void adjust_heap(data_t arr[],int len, int i)$/;"	f
+age	c/test-var.c	/^	int age;$/;"	m	struct:student	file:
+apps	powertool/main.py	/^	apps = apps_setup(user)$/;"	v
+apps_setup	powertool/setup.py	/^class apps_setup:$/;"	c
+args	test/option.py	/^args = ['-f','foo.txt']$/;"	v
+array	c/application/sem.c	/^	unsigned short *array;$/;"	m	union:semun	file:
+asph	c/asphodel.c	/^int asph(int max)$/;"	f
+b	c/test-var.c	/^	char b;$/;"	m	union:A	file:
+b	c/test_func.c	/^int b;$/;"	v
+banner	boot/arm/head.S	/^banner:$/;"	l
+binTree	c/list/c++/agri/bitree.cc	/^		binTree()$/;"	f	class:binTree
+binTree	c/list/c++/agri/bitree.cc	/^		binTree(int n)$/;"	f	class:binTree
+binTree	c/list/c++/agri/bitree.cc	/^class binTree$/;"	c	file:
+bm_loop	boot/arm/head.S	/^bm_loop:$/;"	l
+bool	c/test-var.c	/^} bool;$/;"	v	typeref:enum:BOOL
+buf	c/application/sem.c	/^	struct semid_ds *buf;$/;"	m	union:semun	typeref:struct:semun::semid_ds	file:
+buff	c/application/msgQ.c	/^	char buff[20];$/;"	m	struct:msgbuf	file:
+buff	c/list/c++/agri/hash.cc	/^		Node<T1,T2>* buff[SIZE];$/;"	m	class:HashMap	file:
+calc_sum	boot/arm/kermit.S	/^calc_sum:$/;"	l
+case_1	boot/arm/head.S	/^case_1:$/;"	l
+case_2	boot/arm/head.S	/^case_2:$/;"	l
+config	powertool/setup.py	/^	def config(self, key, val):$/;"	m	class:apps_setup
+course	c/test-var.c	/^		char *course;$/;"	m	struct:student::__anon6	file:
+create	c/list/c++/agri/bitree.cc	/^		Node<T>* create(int n)$/;"	f	class:binTree
+create	c/list/c++/agri/tree.cc	/^		Node<T>* create(int n)$/;"	f	class:Tree
+cross	c/list/c++/agri/antiCir.cc	/^		T cross(Node<T>* h2)$/;"	f	class:List
+data	c/list/bilist.h	/^	data_t data;$/;"	m	struct:node
+data	c/list/c++/agri/antiCir.cc	/^		T data;$/;"	m	class:Node	file:
+data	c/list/c++/agri/bilist.cc	/^		T data;$/;"	m	class:Node	file:
+data	c/list/c++/agri/bitree.cc	/^		T data;$/;"	m	class:Node	file:
+data	c/list/c++/agri/hlist.cc	/^		T data;$/;"	m	class:Node	file:
+data	c/list/c++/agri/list.h	/^		T data;$/;"	m	class:Node
+data	c/list/c++/agri/stack.cc	/^		S *data;$/;"	m	class:Stack	file:
+data	c/list/c++/agri/stack.h	/^		Q *data;$/;"	m	class:Queue
+data	c/list/c++/agri/stack.h	/^		S *data;$/;"	m	class:Stack
+data	c/list/c++/agri/tree.cc	/^		T data;$/;"	m	class:Node	file:
+data	c/list/c++/prac/list.cc	/^		T data;$/;"	m	class:Node	file:
+data	c/list/list.h	/^	data_t data;$/;"	m	struct:node
+data	c/list/lq.h	/^	data_t data;$/;"	m	struct:node
+data	c/list/lstack.h	/^	data_t data;$/;"	m	struct:node
+data	c/list/prac/list.h	/^	data_t data;$/;"	m	struct:node
+data	c/list/q.h	/^	data_t *data;$/;"	m	struct:queue
+data	c/list/stack.h	/^	data_t *data;$/;"	m	struct:stack
+data_t	c/list/agri/sort.h	/^typedef int data_t;$/;"	t
+data_t	c/list/bilist.h	/^typedef int data_t;$/;"	t
+data_t	c/list/list.h	/^typedef int data_t;$/;"	t
+data_t	c/list/lq.h	/^typedef char data_t;$/;"	t
+data_t	c/list/lstack.h	/^typedef char data_t;$/;"	t
+data_t	c/list/prac/list.h	/^typedef int data_t;$/;"	t
+data_t	c/list/q.h	/^typedef char data_t;$/;"	t
+data_t	c/list/sort.h	/^typedef int data_t;$/;"	t
+data_t	c/list/stack.h	/^typedef char data_t;$/;"	t
+depthtraversal	c/list/c++/agri/bitree.cc	/^		void depthtraversal()$/;"	f	class:binTree
+dequeue	c/list/c++/agri/stack.h	/^		int dequeue(Q &d)$/;"	f	class:Queue
+dequeue	c/list/lq.c	/^BOOL dequeue(struct queue *q,data_t *data)$/;"	f
+dequeue	c/list/lq2.c	/^BOOL dequeue(struct queue *q,data_t *data)$/;"	f
+dequeue	c/list/q.c	/^BOOL dequeue(struct queue *q,data_t *data)$/;"	f
+dir_tree	powertool/tree.py	/^class dir_tree:$/;"	c
+do_install	powertool/setup.py	/^	def do_install(self, distrib, version, arch):$/;"	m	class:apps_setup
+do_result	boot/arm/head.S	/^do_result:$/;"	l
+dwAddrPort	boot/nand.c	/^	UINT32 dwAddrPort;$/;"	m	struct:__anon1	file:
+dwCmmdPort	boot/nand.c	/^	UINT32 dwCmmdPort;$/;"	m	struct:__anon1	file:
+dwDataPort	boot/nand.c	/^	UINT32 dwDataPort;$/;"	m	struct:__anon1	file:
+enqueue	c/list/c++/agri/stack.h	/^		int enqueue(Q d)$/;"	f	class:Queue
+enqueue	c/list/lq.c	/^BOOL enqueue(struct queue *q,data_t data)$/;"	f
+enqueue	c/list/lq2.c	/^BOOL enqueue(struct queue *q,data_t data)$/;"	f
+enqueue	c/list/q.c	/^BOOL enqueue(struct queue *q,data_t data)$/;"	f
+equal	c/list/c++/agri/antiCir.cc	/^		bool equal(int a, int b)$/;"	f	class:Mylist
+equal	c/list/c++/agri/antiCir.cc	/^		virtual bool equal(T a,T b){}$/;"	f	class:List
+equal	c/list/c++/agri/bilist.cc	/^		bool equal(int a ,int b)$/;"	f	class:Mylist
+equal	c/list/c++/agri/hash.cc	/^		bool equal(const char *a,const char *b)$/;"	f	class:MyHashMap
+equal	c/list/c++/agri/hlist.cc	/^		bool equal(int a,int b)$/;"	f	class:Mylist
+equal	c/list/c++/agri/list.h	/^		bool equal(int a, int b)$/;"	f	class:Mylist
+equal	c/list/c++/prac/list.cc	/^		bool equal(int a, int b)$/;"	f	class:Mylist
+equal	c/list/c++/prac/list.cc	/^		virtual bool equal(T a,T b){}$/;"	f	class:List
+false	c/test-var.c	/^	false$/;"	e	enum:BOOL	file:
+first	c/list/c++/agri/antiCir.cc	/^		Node<T>* first;$/;"	m	class:List	file:
+first	c/list/c++/agri/list.h	/^		Node<T> *first;$/;"	m	class:List
+first	c/list/c++/prac/list.cc	/^		Node<T>* first;$/;"	m	class:List	file:
+front	c/list/c++/agri/stack.h	/^		int front;$/;"	m	class:Queue
+front	c/list/lq.h	/^	struct node *front;$/;"	m	struct:queue	typeref:struct:queue::node
+front	c/list/q.h	/^	int front;$/;"	m	struct:queue
+gNandFlash	boot/nand.c	/^} gNandFlash;$/;"	v	typeref:struct:__anon1	file:
+gSpNandIds	boot/nand.c	/^static const UINT8 gSpNandIds[] = {	$/;"	v	file:
+g_vMemConf	boot/arm/samsung/s3c24xx.c	/^static UINT32 g_vMemConf[] = {$/;"	v	file:
+get	c/list/c++/agri/hash.cc	/^		bool get(T1 k,T2 &v)$/;"	f	class:HashMap
+getData	c/list/c++/agri/antiCir.cc	/^		T getData()$/;"	f	class:Node
+getData	c/list/c++/agri/bilist.cc	/^		T getData()$/;"	f	class:Node
+getData	c/list/c++/agri/bitree.cc	/^		T getData()$/;"	f	class:Node
+getData	c/list/c++/agri/hlist.cc	/^		T getData()$/;"	f	class:Node
+getData	c/list/c++/agri/list.h	/^		T getData()$/;"	f	class:Node
+getData	c/list/c++/agri/tree.cc	/^		T getData()$/;"	f	class:Node
+getData	c/list/c++/prac/list.cc	/^		T getData()$/;"	f	class:Node
+getHead	c/list/c++/agri/antiCir.cc	/^		Node<T>* getHead()$/;"	f	class:List
+getNext	c/list/c++/agri/antiCir.cc	/^		Node<T>* getNext()$/;"	f	class:Node
+getNext	c/list/c++/agri/bilist.cc	/^		Node<T> *getNext()$/;"	f	class:Node
+getNext	c/list/c++/agri/hash.cc	/^		Node<T1,T2>* getNext()$/;"	f	class:Node
+getNext	c/list/c++/agri/hlist.cc	/^		Node<T>* getNext()$/;"	f	class:Node
+getNext	c/list/c++/agri/list.h	/^		Node<T> *getNext()$/;"	f	class:Node
+getNext	c/list/c++/prac/list.cc	/^		Node<T>* getNext()$/;"	f	class:Node
+getPre	c/list/c++/agri/bilist.cc	/^		Node<T> *getPre()$/;"	f	class:Node
+getSibling	c/list/c++/agri/tree.cc	/^		Node<T>* getSibling()$/;"	f	class:Node
+getValue	c/list/c++/agri/hash.cc	/^		T2 getValue()$/;"	f	class:Node
+get_user_info	powertool/setup.py	/^	def get_user_info(self):$/;"	m	class:apps_setup
+getkey	c/list/c++/agri/hash.cc	/^		T1 getkey()$/;"	f	class:Node
+getlChild	c/list/c++/agri/tree.cc	/^		Node<T>* getlChild()$/;"	f	class:Node
+getlsub	c/list/c++/agri/bitree.cc	/^		Node<T>* getlsub()$/;"	f	class:Node
+getrsub	c/list/c++/agri/bitree.cc	/^		Node<T>* getrsub()$/;"	f	class:Node
+handle_dabort	boot/arm/head.S	/^handle_dabort:$/;"	l
+handle_fiq	boot/arm/head.S	/^handle_fiq:$/;"	l
+handle_iabort	boot/arm/head.S	/^handle_iabort:$/;"	l
+handle_irq	boot/arm/head.S	/^handle_irq:$/;"	l
+handle_reset	boot/arm/head.S	/^handle_reset:$/;"	l
+handle_swi	boot/arm/head.S	/^handle_swi:$/;"	l
+handle_undef	boot/arm/head.S	/^handle_undef:$/;"	l
+hash	c/list/c++/agri/hash.cc	/^		int hash(const char* s)$/;"	f	class:MyHashMap
+hashput	c/list/c++/agri/hash.cc	/^		void hashput(T1 k,T2 v)$/;"	f	class:HashMap
+head	c/list/c++/agri/bilist.cc	/^		Node<T>* head;$/;"	m	class:List	file:
+head	c/list/c++/agri/hlist.cc	/^		Node<T> head;$/;"	m	class:List	file:
+headInsert	c/list/c++/agri/bilist.cc	/^void List<T>::headInsert(T d)$/;"	f	class:List
+height	c/list/c++/agri/bitree.cc	/^		int height(Node<T>* node)$/;"	f	class:binTree
+help	powertool/main.py	/^					  help='show PowerTool version and exit')$/;"	v
+help	test/option.py	/^				help = 'Chose file')$/;"	v
+help	test/option.py	/^				help = 'Show address')$/;"	v
+help	test/option.py	/^				help = 'Show tools version')$/;"	v
+index	c/application/msgQ.c	/^	int index;$/;"	m	struct:msgbuf	file:
+isCircle	c/list/c++/agri/antiCir.cc	/^		bool isCircle()$/;"	f	class:List
+isEmpty	c/list/c++/agri/stack.cc	/^		bool isEmpty()$/;"	f	class:Stack
+isEmpty	c/list/c++/agri/stack.h	/^		bool isEmpty()$/;"	f	class:Queue
+isEmpty	c/list/c++/agri/stack.h	/^		bool isEmpty()$/;"	f	class:Stack
+isFull	c/list/c++/agri/stack.cc	/^		bool isFull()$/;"	f	class:Stack
+isFull	c/list/c++/agri/stack.h	/^		bool isFull()$/;"	f	class:Queue
+isFull	c/list/c++/agri/stack.h	/^		bool isFull()$/;"	f	class:Stack
+kerm_error	boot/arm/kermit.S	/^kerm_error:$/;"	l
+kerm_recv_done	boot/arm/kermit.S	/^kerm_recv_done:$/;"	l
+key	c/list/c++/agri/hash.cc	/^		T1 key;$/;"	m	class:Node	file:
+lastN	c/list/c++/agri/antiCir.cc	/^		T lastN(int n)$/;"	f	class:List
+launch_bh	boot/arm/head.S	/^launch_bh:$/;"	l
+lchild	c/list/c++/agri/tree.cc	/^		Node<T> *lchild,*sibling;$/;"	m	class:Node	file:
+leafNum	c/list/c++/agri/bitree.cc	/^		int leafNum(Node<T>* node,int k)$/;"	f	class:binTree
+len	c/list/q.h	/^	int len;$/;"	m	struct:queue
+len	c/list/stack.h	/^	int len;$/;"	m	struct:stack
+list_create	c/list/bilist.c	/^struct node *list_create(struct node *head, int n)$/;"	f
+list_create	c/list/hlist.c	/^void list_create(struct node *head,int n)$/;"	f
+list_create	c/list/list.c	/^struct node *list_create(int n)$/;"	f
+list_create	c/list/prac/list.c	/^struct node *list_create(int n)$/;"	f
+list_operation	c/list/bilist.c	/^void list_operation(struct node *head,void (*func)(struct node *))$/;"	f
+list_operation	c/list/hlist.c	/^void list_operation(struct node *head,void (*func)(struct node *))$/;"	f
+list_operation	c/list/list.c	/^struct node *list_operation(struct node *first,void (*func)(struct node *))$/;"	f
+list_operation	c/list/prac/list.c	/^void list_operation(struct node *first,void (*func)(struct node *))$/;"	f
+list_reverse	c/list/bilist.c	/^void list_reverse(struct node *head)$/;"	f
+list_reverse	c/list/hlist.c	/^void list_reverse(struct node *head)$/;"	f
+list_reverse	c/list/list.c	/^struct node *list_reverse(struct node *first)$/;"	f
+list_reverse	c/list/prac/list.c	/^struct node *list_reverse(struct node *first)$/;"	f
+lsub	c/list/c++/agri/bitree.cc	/^		Node<T> *lsub,*rsub;$/;"	m	class:Node	file:
+main	MF-test/hello.c	/^main()$/;"	f
+main	boot/init.c	/^int main(void)$/;"	f
+main	c/application/cdrom.c	/^int main()$/;"	f
+main	c/application/dir.c	/^int main()$/;"	f
+main	c/application/files.c	/^int main()$/;"	f
+main	c/application/fork.c	/^int main()$/;"	f
+main	c/application/forkexec.c	/^int main()$/;"	f
+main	c/application/hello.c	/^int main()$/;"	f
+main	c/application/msgQ.c	/^int main()$/;"	f
+main	c/application/sem.c	/^int main()$/;"	f
+main	c/application/shm.c	/^int main()$/;"	f
+main	c/array.c	/^void main()$/;"	f
+main	c/asmtest.c	/^int main()$/;"	f
+main	c/asphodel.c	/^void main()$/;"	f
+main	c/bran.c	/^void main(void)$/;"	f
+main	c/list/agri/main.c	/^int main()$/;"	f
+main	c/list/agri/test.c	/^void main()$/;"	f
+main	c/list/bilistmain.c	/^int main()$/;"	f
+main	c/list/c++/agri/antiCir.cc	/^int main()$/;"	f
+main	c/list/c++/agri/bilist.cc	/^int main()$/;"	f
+main	c/list/c++/agri/bitree.cc	/^int main()$/;"	f
+main	c/list/c++/agri/hash.cc	/^int main()$/;"	f
+main	c/list/c++/agri/hlist.cc	/^int main()$/;"	f
+main	c/list/c++/agri/main.cc	/^int main()$/;"	f
+main	c/list/c++/agri/test.cc	/^int main()$/;"	f
+main	c/list/c++/agri/tree.cc	/^int main()$/;"	f
+main	c/list/c++/prac/list.cc	/^int main()$/;"	f
+main	c/list/c++/test.cc	/^int main()$/;"	f
+main	c/list/listmain.c	/^int main()$/;"	f
+main	c/list/lqmain.c	/^int main()$/;"	f
+main	c/list/lstackmain.c	/^int main()$/;"	f
+main	c/list/prac/listmain.c	/^int main()$/;"	f
+main	c/list/prac/rand.c	/^void main()$/;"	f
+main	c/list/qmain.c	/^int main()$/;"	f
+main	c/list/sortmain.c	/^int main()$/;"	f
+main	c/list/stackmain.c	/^int main()$/;"	f
+main	c/maxarr.c	/^void main(void)$/;"	f
+main	c/point.c	/^void main()$/;"	f
+main	c/reverse.c	/^void main()$/;"	f
+main	c/struct.c	/^void main()$/;"	f
+main	c/swap.c	/^void main()$/;"	f
+main	c/test-var.c	/^void main()$/;"	f
+main	c/test_func.c	/^void main()$/;"	f
+merge	c/list/merge_sort.c	/^void merge(data_t a1[],int len1,data_t a2[],int len2,data_t arr[])$/;"	f
+merge	c/list/merge_sort2.c	/^void merge(data_t a1[],int len1,data_t a2[],int len2,data_t arr[])$/;"	f
+merge_it	c/list/merge_sort.c	/^void merge_it(data_t arr[],int len)$/;"	f
+merge_it	c/list/merge_sort2.c	/^void merge_it(data_t arr[],int len)$/;"	f
+merge_re	c/list/merge_sort.c	/^void merge_re(data_t arr[],int len)$/;"	f
+merge_re	c/list/merge_sort2.c	/^void merge_re(data_t arr[],int len)$/;"	f
+midTraversal	c/list/c++/agri/bitree.cc	/^		void midTraversal()$/;"	f	class:binTree
+midTraversal	c/list/c++/agri/bitree.cc	/^		void midTraversal(Node<T>* node)$/;"	f	class:binTree	file:
+msg_boot_menu	boot/arm/head.S	/^msg_boot_menu:$/;"	l
+msg_booting	boot/arm/head.S	/^msg_booting:	$/;"	l
+msg_bottom_miss	boot/arm/head.S	/^msg_bottom_miss:	$/;"	l
+msg_wrong_choice	boot/arm/head.S	/^msg_wrong_choice:$/;"	l
+msgbuf	c/application/msgQ.c	/^struct msgbuf$/;"	s	file:
+nBlockSize	boot/nand.c	/^	UINT32 nBlockSize;$/;"	m	struct:__anon1	file:
+nWriteSize	boot/nand.c	/^	UINT32 nWriteSize;$/;"	m	struct:__anon1	file:
+name	c/test-var.c	/^	char *name;$/;"	m	struct:student	file:
+name_to_mail	powertool/setup.py	/^	def name_to_mail(self, name):$/;"	m	class:apps_setup
+next	c/list/bilist.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	c/list/c++/agri/antiCir.cc	/^		Node<T> *next;$/;"	m	class:Node	file:
+next	c/list/c++/agri/bilist.cc	/^		Node<T>* next;$/;"	m	class:Node	file:
+next	c/list/c++/agri/hash.cc	/^		Node<T1,T2>* next;$/;"	m	class:Node	file:
+next	c/list/c++/agri/hlist.cc	/^		Node<T>* next;$/;"	m	class:Node	file:
+next	c/list/c++/agri/list.h	/^		Node<T> *next;$/;"	m	class:Node
+next	c/list/c++/prac/list.cc	/^		Node<T> *next;$/;"	m	class:Node	file:
+next	c/list/list.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	c/list/lq.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	c/list/lstack.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	c/list/prac/list.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+node	c/list/bilist.h	/^struct node$/;"	s
+node	c/list/list.h	/^struct node$/;"	s
+node	c/list/lq.h	/^struct node$/;"	s
+node	c/list/lstack.h	/^struct node$/;"	s
+node	c/list/prac/list.h	/^struct node$/;"	s
+nodeDelete	c/list/c++/agri/bilist.cc	/^void List<T>::nodeDelete(T d)$/;"	f	class:List
+nodeDelete	c/list/c++/agri/hlist.cc	/^void List<T>::nodeDelete(T d)$/;"	f	class:List
+nodeInsert	c/list/c++/agri/hlist.cc	/^void List<T>::nodeInsert(T d)$/;"	f	class:List
+nodeInsert	c/list/c++/agri/list.h	/^void List<T>::nodeInsert(T d)$/;"	f	class:List
+nodeNum	c/list/c++/agri/bitree.cc	/^		int nodeNum(Node<T>* node)$/;"	f	class:binTree
+node_create	c/list/bilist.c	/^struct node *node_create(data_t data)$/;"	f
+node_create	c/list/hlist.c	/^struct node *node_create(data_t data)$/;"	f
+node_create	c/list/list.c	/^struct node *node_create(data_t data)$/;"	f
+node_create	c/list/prac/list.c	/^struct node *node_create(data_t data)$/;"	f
+node_delete	c/list/bilist.c	/^void node_delete(struct node *head,data_t data)$/;"	f
+node_delete	c/list/hlist.c	/^void node_delete(struct node *head,data_t data)$/;"	f
+node_delete	c/list/list.c	/^struct node *node_delete(struct node *first,data_t data)$/;"	f
+node_delete	c/list/prac/list.c	/^struct node *node_delete(struct node *first,data_t data)$/;"	f
+node_free	c/list/bilist.c	/^void node_free(struct node *node)$/;"	f
+node_free	c/list/hlist.c	/^void node_free(struct node *node)$/;"	f
+node_free	c/list/list.c	/^void node_free(struct node *node)$/;"	f
+node_free	c/list/prac/list.c	/^void node_free(struct node *node)$/;"	f
+node_insert	c/list/hlist.c	/^void node_insert(struct node *head,data_t data)$/;"	f
+node_insert	c/list/list.c	/^struct node *node_insert(struct node *first,data_t data)$/;"	f
+node_insert	c/list/prac/list.c	/^struct node *node_insert(struct node *first,data_t data)$/;"	f
+node_insert1	c/list/bilist.c	/^struct node *node_insert1(struct node *head,data_t data)$/;"	f
+node_insert2	c/list/bilist.c	/^struct node *node_insert2(struct node *head,data_t data)$/;"	f
+node_show	c/list/bilist.c	/^void node_show(struct node *node)$/;"	f
+node_show	c/list/hlist.c	/^void node_show(struct node *node)$/;"	f
+node_show	c/list/list.c	/^void node_show(struct node *node)$/;"	f
+node_show	c/list/prac/list.c	/^void node_show(struct node *node)$/;"	f
+nodedelete	c/list/c++/agri/list.h	/^void List<T>::nodedelete(T d)$/;"	f	class:List
+num	c/reverse.c	/^int num(int val)$/;"	f
+option	test/option.py	/^option = OptionParser()$/;"	v
+ou	c/list/c++/agri/test.cc	/^		int ou()$/;"	f	class:B
+ou	c/list/c++/agri/test.cc	/^		virtual T ou(){}$/;"	f	class:A
+p	c/test-var.c	/^		int p;$/;"	m	struct:student::__anon6	file:
+parser	powertool/main.py	/^	parser = OptionParser()$/;"	v
+pop	c/list/c++/agri/stack.cc	/^		bool pop(S &d)$/;"	f	class:Stack
+pop	c/list/c++/agri/stack.h	/^		bool pop(S &d)$/;"	f	class:Stack
+populate	powertool/tree.py	/^	def populate(self):$/;"	m	class:dir_tree
+postTraversal	c/list/c++/agri/bitree.cc	/^		void postTraversal()$/;"	f	class:binTree
+postTraversal	c/list/c++/agri/bitree.cc	/^		void postTraversal(Node<T>* node)$/;"	f	class:binTree	file:
+postTraversal	c/list/c++/agri/tree.cc	/^		void postTraversal()$/;"	f	class:Tree
+postTraversal	c/list/c++/agri/tree.cc	/^		void postTraversal(Node<T>* node)$/;"	f	class:Tree
+pre	c/list/bilist.h	/^	struct node *pre;$/;"	m	struct:node	typeref:struct:node::node
+pre	c/list/c++/agri/bilist.cc	/^		Node<T>* pre;$/;"	m	class:Node	file:
+preTraversal	c/list/c++/agri/bitree.cc	/^		void preTraversal()$/;"	f	class:binTree
+preTraversal	c/list/c++/agri/bitree.cc	/^		void preTraversal(Node<T>* node)$/;"	f	class:binTree	file:
+preTraversal	c/list/c++/agri/tree.cc	/^		void preTraversal()$/;"	f	class:Tree
+preTraversal	c/list/c++/agri/tree.cc	/^		void preTraversal(Node<T>* node)$/;"	f	class:Tree
+push	c/list/c++/agri/stack.cc	/^		bool push(S d)$/;"	f	class:Stack
+push	c/list/c++/agri/stack.h	/^		bool push(S d)$/;"	f	class:Stack
+puts	boot/stdio.c	/^int puts(const char *p)$/;"	f
+queue	c/list/lq.h	/^struct queue$/;"	s
+queue	c/list/q.h	/^struct queue$/;"	s
+queue_create	c/list/lq.c	/^struct queue *queue_create()$/;"	f
+queue_create	c/list/lq2.c	/^struct queue *queue_create()$/;"	f
+queue_create	c/list/q.c	/^struct queue *queue_create(int len)$/;"	f
+queue_destory	c/list/lq.c	/^void queue_destory(struct queue *q)$/;"	f
+queue_destory	c/list/lq2.c	/^void queue_destory(struct queue *q)$/;"	f
+queue_destroy	c/list/q.c	/^void queue_destroy(struct queue *q)$/;"	f
+queue_is_empty	c/list/lq.c	/^BOOL queue_is_empty(struct queue *q)$/;"	f
+queue_is_empty	c/list/lq2.c	/^BOOL queue_is_empty(struct queue *q)$/;"	f
+queue_is_empty	c/list/q.c	/^BOOL queue_is_empty(struct queue *q)$/;"	f
+queue_is_full	c/list/q.c	/^BOOL queue_is_full(struct queue *q)$/;"	f
+quick	c/list/agri/sort_quick.c	/^int quick(data_t arr[],int len)$/;"	f
+rear	c/list/c++/agri/stack.h	/^		int rear;$/;"	m	class:Queue
+rear	c/list/lq.h	/^	struct node *rear;$/;"	m	struct:queue	typeref:struct:queue::node
+rear	c/list/q.h	/^	int rear;$/;"	m	struct:queue
+reverse	c/list/c++/agri/bilist.cc	/^void List<T>::reverse()$/;"	f	class:List
+reverse1	c/list/c++/agri/hlist.cc	/^void List<T>::reverse1()$/;"	f	class:List
+reverse1	c/list/c++/agri/list.h	/^void List<T>::reverse1()$/;"	f	class:List
+reverse2	c/list/c++/agri/hlist.cc	/^void List<T>::reverse2()$/;"	f	class:List
+reverse2	c/list/c++/agri/list.h	/^void List<T>::reverse2()$/;"	f	class:List
+reverse3	c/list/c++/agri/hlist.cc	/^void List<T>::reverse3()$/;"	f	class:List
+reverse3	c/list/c++/agri/list.h	/^void List<T>::reverse3()$/;"	f	class:List
+root	c/list/c++/agri/bitree.cc	/^		Node<T>* root;$/;"	m	class:binTree	file:
+root	c/list/c++/agri/tree.cc	/^		Node<T>* root;$/;"	m	class:Tree	file:
+rsub	c/list/c++/agri/bitree.cc	/^		Node<T> *lsub,*rsub;$/;"	m	class:Node	file:
+rx_rdy	boot/arm/atmel/at91sam926x.S	/^rx_rdy:$/;"	l
+s	c/test-var.c	/^} s;$/;"	v	typeref:struct:student
+save_byte	boot/arm/kermit.S	/^save_byte:	$/;"	l
+search	c/list/agri/sort_bin.c	/^int search(data_t arr[], int len,data_t data)$/;"	f
+sem_init	c/application/sem.c	/^void sem_init(int semid,int val)$/;"	f
+sem_p	c/application/sem.c	/^void sem_p(int semid)$/;"	f
+sem_v	c/application/sem.c	/^void sem_v(int semid)$/;"	f
+semun	c/application/sem.c	/^union semun{$/;"	u	file:
+send_ack_packet	boot/arm/kermit.S	/^send_ack_packet:$/;"	l
+setCross	c/list/c++/agri/antiCir.cc	/^		void setCross(Node<T>* first2)$/;"	f	class:List
+setLoop	c/list/c++/agri/antiCir.cc	/^		void setLoop()$/;"	f	class:List
+setNext	c/list/c++/agri/antiCir.cc	/^		void setNext(Node<T>* node)$/;"	f	class:Node
+setNext	c/list/c++/agri/bilist.cc	/^		void setNext(Node<T>* node)$/;"	f	class:Node
+setNext	c/list/c++/agri/hash.cc	/^		void setNext(Node<T1,T2>* node)$/;"	f	class:Node
+setNext	c/list/c++/agri/hlist.cc	/^		void *setNext(Node<T>* node)$/;"	f	class:Node
+setNext	c/list/c++/agri/list.h	/^		void setNext(Node<T> *node)$/;"	f	class:Node
+setNext	c/list/c++/prac/list.cc	/^		void setNext(Node<T>* node)$/;"	f	class:Node
+setPre	c/list/c++/agri/bilist.cc	/^		void setPre(Node<T>* node)$/;"	f	class:Node
+setSibling	c/list/c++/agri/tree.cc	/^		void setSibling(Node<T>* node)$/;"	f	class:Node
+setValue	c/list/c++/agri/hash.cc	/^		void setValue(T2 v)$/;"	f	class:Node
+setlChild	c/list/c++/agri/tree.cc	/^		void setlChild(Node<T>* node)$/;"	f	class:Node
+setlsub	c/list/c++/agri/bitree.cc	/^		void setlsub(Node<T>* node)$/;"	f	class:Node
+setrsub	c/list/c++/agri/bitree.cc	/^		void setrsub(Node<T>* node)$/;"	f	class:Node
+setup	powertool/setup.py	/^	def setup(self):$/;"	m	class:apps_setup
+setup_fonts	powertool/setup.py	/^	def setup_fonts(self, distrib, version, group):$/;"	m	class:apps_setup
+setup_git	powertool/setup.py	/^	def setup_git(self, distrib, version, group):$/;"	m	class:apps_setup
+setup_serial	powertool/setup.py	/^	def setup_serial(self, distrib, version, group):$/;"	m	class:apps_setup
+setup_vim	powertool/setup.py	/^	def setup_vim(self, distrib, version, group):$/;"	m	class:apps_setup
+show	MF-test/show.c	/^void show()$/;"	f
+show	c/list/c++/test.cc	/^		void show()$/;"	f	class:Test
+show	c/point.c	/^int show(int a[])$/;"	f
+sibling	c/list/c++/agri/tree.cc	/^		Node<T> *lchild,*sibling;$/;"	m	class:Node	file:
+size	c/list/c++/agri/stack.cc	/^		int size;$/;"	m	class:Stack	file:
+size	c/list/c++/agri/stack.h	/^		int size;$/;"	m	class:Queue
+size	c/list/c++/agri/stack.h	/^		int size;$/;"	m	class:Stack
+sort_binary	c/list/agri/sort_bin.c	/^void sort_binary(data_t arr[],int len)$/;"	f
+sort_bubble	c/list/agri/sort_bubble.c	/^void sort_bubble(data_t arr[],int len)$/;"	f
+sort_heap	c/list/heap_sort.c	/^void sort_heap(data_t arr[],int len)$/;"	f
+sort_heap	c/list/heap_sort2.c	/^void sort_heap(data_t arr[],int len)$/;"	f
+sort_insert	c/list/agri/sort_insert.c	/^void sort_insert(data_t arr[],int len)$/;"	f
+sort_quick	c/list/agri/sort_quick.c	/^void sort_quick(data_t arr[],int len)$/;"	f
+sort_select	c/list/agri/sort_select.c	/^void sort_select(data_t arr[],int len)$/;"	f
+sort_shell	c/list/agri/sort_shell.c	/^void sort_shell(data_t arr[],int len)$/;"	f
+sp	c/list/c++/agri/stack.cc	/^		int sp;$/;"	m	class:Stack	file:
+sp	c/list/c++/agri/stack.h	/^		int sp;$/;"	m	class:Stack
+sp	c/list/lstack.h	/^	struct node *sp;$/;"	m	struct:stack	typeref:struct:stack::node
+sp	c/list/stack.h	/^	int sp;$/;"	m	struct:stack
+stack	c/list/lstack.h	/^struct stack$/;"	s
+stack	c/list/stack.h	/^struct stack$/;"	s
+stack_create	c/list/lstack.c	/^struct stack *stack_create()$/;"	f
+stack_create	c/list/stack.c	/^struct stack *stack_create(int len)$/;"	f
+stack_destory	c/list/stack.c	/^void stack_destory(struct stack *s)$/;"	f
+stack_destroy	c/list/lstack.c	/^void stack_destroy(struct stack *s)$/;"	f
+stack_is_empty	c/list/lstack.c	/^BOOL stack_is_empty(struct stack *s)$/;"	f
+stack_is_empty	c/list/stack.c	/^BOOL stack_is_empty(struct stack *s)$/;"	f
+stack_is_full	c/list/stack.c	/^BOOL stack_is_full(struct stack *s)$/;"	f
+stack_pop	c/list/lstack.c	/^BOOL stack_pop(struct stack*s,data_t *data)$/;"	f
+stack_pop	c/list/stack.c	/^BOOL stack_pop(struct stack *s,data_t *data)$/;"	f
+stack_push	c/list/lstack.c	/^BOOL stack_push(struct stack *s,data_t data)$/;"	f
+stack_push	c/list/stack.c	/^BOOL stack_push(struct stack *s,data_t data)$/;"	f
+stackmid	c/list/c++/agri/bitree.cc	/^		void stackmid()$/;"	f	class:binTree
+stackpost	c/list/c++/agri/bitree.cc	/^		void stackpost()$/;"	f	class:binTree
+stackpre	c/list/c++/agri/bitree.cc	/^		void stackpre()$/;"	f	class:binTree
+student	c/test-var.c	/^struct student{$/;"	s	file:
+subNum	c/list/c++/agri/bitree.cc	/^		int subNum(Node<T>* node)$/;"	f	class:binTree
+swap	c/swap.c	/^void swap(int *a,int *b)$/;"	f
+tail	c/list/list.c	/^struct node *tail(struct node *first,data_t data)$/;"	f
+tailInert	c/list/c++/agri/bilist.cc	/^void List<T>::tailInert(T d)$/;"	f	class:List
+test	c/maxarr.c	/^int test(int *arr,int len)$/;"	f
+test	c/test_func.h	/^static inline void test()$/;"	f
+test	c/test_func_sub.c	/^void test()$/;"	f
+top	c/list/c++/agri/stack.h	/^		void top(S &d)$/;"	f	class:Stack
+traversal	c/list/c++/agri/bilist.cc	/^void List<T>::traversal()$/;"	f	class:List
+traversal	c/list/c++/agri/hlist.cc	/^void List<T>::traversal()$/;"	f	class:List
+traversal	c/list/c++/agri/list.h	/^void List<T>::traversal()$/;"	f	class:List
+traverse	powertool/tree.py	/^	def traverse(self, node, path):$/;"	m	class:dir_tree
+tree	powertool/main.py	/^	tree = dir_tree()$/;"	v
+true	c/test-var.c	/^	true,$/;"	e	enum:BOOL	file:
+tx_rdy	boot/arm/atmel/at91sam926x.S	/^tx_rdy:$/;"	l
+u	c/test-var.c	/^} u;$/;"	v	typeref:union:A
+user	powertool/main.py	/^	user = os.getenv('USER')$/;"	v
+val	c/application/sem.c	/^	int val;$/;"	m	union:semun	file:
+value	c/list/c++/agri/hash.cc	/^		T2 value;$/;"	m	class:Node	file:
+vect_dabort	boot/arm/head.S	/^vect_dabort:$/;"	l
+vect_fiq	boot/arm/head.S	/^vect_fiq:$/;"	l
+vect_iabort	boot/arm/head.S	/^vect_iabort:$/;"	l
+vect_irq	boot/arm/head.S	/^vect_irq:$/;"	l
+vect_reset	boot/arm/head.S	/^vect_reset:$/;"	l
+vect_swi	boot/arm/head.S	/^vect_swi:$/;"	l
+vect_undef	boot/arm/head.S	/^vect_undef:$/;"	l
+version	powertool/main.py	/^version = '4.2'$/;"	v
+version	powertool/tree.py	/^version = 4.2$/;"	v
+visit	c/list/c++/agri/antiCir.cc	/^		void visit(Node<T>* node)$/;"	f	class:List
+visit	c/list/c++/agri/bilist.cc	/^void List<T>::visit(Node<T>* node)$/;"	f	class:List
+visit	c/list/c++/agri/bitree.cc	/^		void visit(Node<T> *node)$/;"	f	class:binTree
+visit	c/list/c++/agri/hlist.cc	/^void List<T>::visit(Node<T>* node)$/;"	f	class:List
+visit	c/list/c++/agri/list.h	/^void List<T>::visit(Node<T> *node)$/;"	f	class:List
+visit	c/list/c++/agri/tree.cc	/^		void visit(Node<T>* node)$/;"	f	class:Tree
+visit	c/list/c++/prac/list.cc	/^		void visit(Node<T>* node)$/;"	f	class:List
+widetraversal	c/list/c++/agri/bitree.cc	/^		void widetraversal()$/;"	f	class:binTree
+~HashMap	c/list/c++/agri/hash.cc	/^		~HashMap()$/;"	f	class:HashMap
+~List	c/list/c++/agri/antiCir.cc	/^		~List()$/;"	f	class:List
+~List	c/list/c++/agri/bilist.cc	/^List<T>::~List()$/;"	f	class:List
+~List	c/list/c++/agri/hlist.cc	/^List<T>::~List()$/;"	f	class:List
+~List	c/list/c++/agri/list.h	/^List<T>::~List()$/;"	f	class:List
+~List	c/list/c++/prac/list.cc	/^		~List()$/;"	f	class:List
+~Queue	c/list/c++/agri/stack.h	/^		~Queue(){}$/;"	f	class:Queue
+~Test	c/list/c++/test.cc	/^		~Test()$/;"	f	class:Test

@@ -1,0 +1,465 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	list/c++/agri/test.cc	/^		A()$/;"	f	class:A
+A	list/c++/agri/test.cc	/^class A$/;"	c	file:
+A	test-var.c	/^union A{$/;"	u	file:
+B	list/c++/agri/test.cc	/^class B:public A<int>$/;"	c	file:
+B	list/c++/test.cc	/^		B(void) : Test()$/;"	f	class:B
+B	list/c++/test.cc	/^class B : Test$/;"	c	file:
+BOOL	list/lq.h	/^typedef enum{False,True} BOOL;$/;"	t	typeref:enum:__anon2
+BOOL	list/lstack.h	/^typedef enum{False,True} BOOL;$/;"	t	typeref:enum:__anon4
+BOOL	list/q.h	/^typedef enum{False,True} BOOL;$/;"	t	typeref:enum:__anon3
+BOOL	list/stack.h	/^	} BOOL;$/;"	t	typeref:enum:__anon1
+BOOL	test-var.c	/^enum BOOL{$/;"	g	file:
+DEVICE	application/cdrom.c	6;"	d	file:
+FUNC	point.c	/^typedef int (*FUNC)(int a[]);$/;"	t	file:
+False	list/lq.h	/^typedef enum{False,True} BOOL;$/;"	e	enum:__anon2
+False	list/lstack.h	/^typedef enum{False,True} BOOL;$/;"	e	enum:__anon4
+False	list/q.h	/^typedef enum{False,True} BOOL;$/;"	e	enum:__anon3
+False	list/stack.h	/^		False,True$/;"	e	enum:__anon1
+HashMap	list/c++/agri/hash.cc	/^		HashMap()$/;"	f	class:HashMap
+HashMap	list/c++/agri/hash.cc	/^class HashMap$/;"	c	file:
+Height	list/c++/agri/bitree.cc	/^		int Height()$/;"	f	class:binTree
+KEY	application/msgQ.c	6;"	d	file:
+KEY	application/sem.c	38;"	d	file:
+KEY	application/shm.c	5;"	d	file:
+LeafNum	list/c++/agri/bitree.cc	/^		int LeafNum()$/;"	f	class:binTree
+List	list/c++/agri/antiCir.cc	/^		List()$/;"	f	class:List
+List	list/c++/agri/antiCir.cc	/^		List(T arr[],int n)$/;"	f	class:List
+List	list/c++/agri/antiCir.cc	/^class List$/;"	c	file:
+List	list/c++/agri/bilist.cc	/^List<T>::List()$/;"	f	class:List
+List	list/c++/agri/bilist.cc	/^List<T>::List(T arr[],int n)$/;"	f	class:List
+List	list/c++/agri/bilist.cc	/^class List$/;"	c	file:
+List	list/c++/agri/hlist.cc	/^		List(){}$/;"	f	class:List
+List	list/c++/agri/hlist.cc	/^List<T>::List(T arr[],int n)$/;"	f	class:List
+List	list/c++/agri/hlist.cc	/^class List$/;"	c	file:
+List	list/c++/agri/list.h	/^List<T>::List()$/;"	f	class:List
+List	list/c++/agri/list.h	/^List<T>::List(T arr[],int n)$/;"	f	class:List
+List	list/c++/agri/list.h	/^class List$/;"	c
+List	list/c++/prac/list.cc	/^		List()$/;"	f	class:List
+List	list/c++/prac/list.cc	/^		List(T arr[],int n)$/;"	f	class:List
+List	list/c++/prac/list.cc	/^class List$/;"	c	file:
+MyHashMap	list/c++/agri/hash.cc	/^		MyHashMap():HashMap(){}$/;"	f	class:MyHashMap
+MyHashMap	list/c++/agri/hash.cc	/^class MyHashMap:public HashMap<const char *,const char *>$/;"	c	file:
+Mylist	list/c++/agri/antiCir.cc	/^		Mylist():List<int>(){};$/;"	f	class:Mylist
+Mylist	list/c++/agri/antiCir.cc	/^		Mylist(int arr[],int n):List<int>(arr,n){};$/;"	f	class:Mylist
+Mylist	list/c++/agri/antiCir.cc	/^class Mylist:public List<int>$/;"	c	file:
+Mylist	list/c++/agri/bilist.cc	/^		Mylist():List(){}$/;"	f	class:Mylist
+Mylist	list/c++/agri/bilist.cc	/^		Mylist(int arr[],int n):List(arr,n){}$/;"	f	class:Mylist
+Mylist	list/c++/agri/bilist.cc	/^class Mylist:public List<int>$/;"	c	file:
+Mylist	list/c++/agri/hlist.cc	/^		Mylist():List(){}$/;"	f	class:Mylist
+Mylist	list/c++/agri/hlist.cc	/^		Mylist(int arr[],int n):List(arr,n){}$/;"	f	class:Mylist
+Mylist	list/c++/agri/hlist.cc	/^class Mylist:public List<int>$/;"	c	file:
+Mylist	list/c++/agri/list.h	/^		Mylist():List(){}$/;"	f	class:Mylist
+Mylist	list/c++/agri/list.h	/^		Mylist(int arr[],int n):List<int>(arr,n){}$/;"	f	class:Mylist
+Mylist	list/c++/agri/list.h	/^class Mylist:public List<int>$/;"	c
+Mylist	list/c++/prac/list.cc	/^		Mylist():List<int>(){};$/;"	f	class:Mylist
+Mylist	list/c++/prac/list.cc	/^		Mylist(int arr[],int n):List<int>(arr,n){};$/;"	f	class:Mylist
+Mylist	list/c++/prac/list.cc	/^class Mylist:public List<int>$/;"	c	file:
+N	list/agri/sort.h	4;"	d
+N	list/sort.h	4;"	d
+Node	list/c++/agri/antiCir.cc	/^		Node(T d)$/;"	f	class:Node
+Node	list/c++/agri/antiCir.cc	/^class Node$/;"	c	file:
+Node	list/c++/agri/bilist.cc	/^		Node()$/;"	f	class:Node
+Node	list/c++/agri/bilist.cc	/^		Node(T d)$/;"	f	class:Node
+Node	list/c++/agri/bilist.cc	/^class Node$/;"	c	file:
+Node	list/c++/agri/bitree.cc	/^		Node(T d)$/;"	f	class:Node
+Node	list/c++/agri/bitree.cc	/^class Node$/;"	c	file:
+Node	list/c++/agri/hash.cc	/^		Node(T1 k,T2 v)$/;"	f	class:Node
+Node	list/c++/agri/hash.cc	/^class Node$/;"	c	file:
+Node	list/c++/agri/hlist.cc	/^		Node()$/;"	f	class:Node
+Node	list/c++/agri/hlist.cc	/^		Node(T d)$/;"	f	class:Node
+Node	list/c++/agri/hlist.cc	/^class Node$/;"	c	file:
+Node	list/c++/agri/list.h	/^		Node(T d)$/;"	f	class:Node
+Node	list/c++/agri/list.h	/^class Node$/;"	c
+Node	list/c++/agri/tree.cc	/^		Node(T d)$/;"	f	class:Node
+Node	list/c++/agri/tree.cc	/^class Node$/;"	c	file:
+Node	list/c++/prac/list.cc	/^		Node(T d)$/;"	f	class:Node
+Node	list/c++/prac/list.cc	/^class Node$/;"	c	file:
+NodeDelete	list/c++/agri/antiCir.cc	/^		void NodeDelete(T d)$/;"	f	class:List
+NodeDelete	list/c++/prac/list.cc	/^		void NodeDelete(T d)$/;"	f	class:List
+NodeInsert	list/c++/agri/antiCir.cc	/^		void NodeInsert(T d)$/;"	f	class:List
+NodeInsert	list/c++/prac/list.cc	/^		void NodeInsert(T d)$/;"	f	class:List
+NodeNum	list/c++/agri/bitree.cc	/^		int NodeNum()$/;"	f	class:binTree
+NodeReverse1	list/c++/agri/antiCir.cc	/^		void NodeReverse1()$/;"	f	class:List
+NodeReverse1	list/c++/prac/list.cc	/^		void NodeReverse1()$/;"	f	class:List
+NodeReverse2	list/c++/agri/antiCir.cc	/^		void NodeReverse2()$/;"	f	class:List
+NodeReverse2	list/c++/prac/list.cc	/^		void NodeReverse2()$/;"	f	class:List
+NodeReverse3	list/c++/agri/antiCir.cc	/^		void NodeReverse3()$/;"	f	class:List
+NodeReverse3	list/c++/prac/list.cc	/^		void NodeReverse3()$/;"	f	class:List
+Nodetraversal	list/c++/agri/antiCir.cc	/^		void Nodetraversal()$/;"	f	class:List
+Nodetraversal	list/c++/prac/list.cc	/^		void Nodetraversal()$/;"	f	class:List
+Queue	list/c++/agri/stack.h	/^		Queue(int s)$/;"	f	class:Queue
+Queue	list/c++/agri/stack.h	/^class Queue$/;"	c
+SIZE	list/c++/agri/hash.cc	/^		static const int SIZE = 100;  $/;"	m	class:HashMap	file:
+SWAP	list/agri/sort.h	8;"	d
+SWAP	list/sort.h	5;"	d
+Stack	list/c++/agri/stack.cc	/^		Stack(int n)$/;"	f	class:Stack
+Stack	list/c++/agri/stack.cc	/^class Stack$/;"	c	file:
+Stack	list/c++/agri/stack.h	/^		Stack(int n)$/;"	f	class:Stack
+Stack	list/c++/agri/stack.h	/^class Stack$/;"	c
+SubNum	list/c++/agri/bitree.cc	/^		int SubNum()$/;"	f	class:binTree
+Test	list/c++/test.cc	/^		Test(void)$/;"	f	class:Test
+Test	list/c++/test.cc	/^class Test$/;"	c	file:
+Tree	list/c++/agri/tree.cc	/^		Tree()$/;"	f	class:Tree
+Tree	list/c++/agri/tree.cc	/^		Tree(int n)$/;"	f	class:Tree
+Tree	list/c++/agri/tree.cc	/^class Tree$/;"	c	file:
+True	list/lq.h	/^typedef enum{False,True} BOOL;$/;"	e	enum:__anon2
+True	list/lstack.h	/^typedef enum{False,True} BOOL;$/;"	e	enum:__anon4
+True	list/q.h	/^typedef enum{False,True} BOOL;$/;"	e	enum:__anon3
+True	list/stack.h	/^		False,True$/;"	e	enum:__anon1
+__buf	application/sem.c	/^	struct seminfo *__buf;$/;"	m	union:semun	typeref:struct:semun::seminfo	file:
+a	application/fork.c	/^int a = 10;$/;"	v
+a	list/c++/test.cc	/^		int a;$/;"	m	class:Test	file:
+a	test-var.c	/^	long a;$/;"	m	union:A	file:
+adjust_heap	list/heap_sort.c	/^void adjust_heap(data_t arr[],int len,int i)$/;"	f
+adjust_heap	list/heap_sort2.c	/^void adjust_heap(data_t arr[],int len, int i)$/;"	f
+age	test-var.c	/^	int age;$/;"	m	struct:student	file:
+array	application/sem.c	/^	unsigned short *array;$/;"	m	union:semun	file:
+asph	asphodel.c	/^int asph(int max)$/;"	f
+b	test-var.c	/^	char b;$/;"	m	union:A	file:
+b	test_func.c	/^int b;$/;"	v
+binTree	list/c++/agri/bitree.cc	/^		binTree()$/;"	f	class:binTree
+binTree	list/c++/agri/bitree.cc	/^		binTree(int n)$/;"	f	class:binTree
+binTree	list/c++/agri/bitree.cc	/^class binTree$/;"	c	file:
+bool	test-var.c	/^} bool;$/;"	v	typeref:enum:BOOL
+buf	application/sem.c	/^	struct semid_ds *buf;$/;"	m	union:semun	typeref:struct:semun::semid_ds	file:
+buff	application/msgQ.c	/^	char buff[20];$/;"	m	struct:msgbuf	file:
+buff	list/c++/agri/hash.cc	/^		Node<T1,T2>* buff[SIZE];$/;"	m	class:HashMap	file:
+course	test-var.c	/^		char *course;$/;"	m	struct:student::__anon5	file:
+create	list/c++/agri/bitree.cc	/^		Node<T>* create(int n)$/;"	f	class:binTree
+create	list/c++/agri/tree.cc	/^		Node<T>* create(int n)$/;"	f	class:Tree
+cross	list/c++/agri/antiCir.cc	/^		T cross(Node<T>* h2)$/;"	f	class:List
+data	list/bilist.h	/^	data_t data;$/;"	m	struct:node
+data	list/c++/agri/antiCir.cc	/^		T data;$/;"	m	class:Node	file:
+data	list/c++/agri/bilist.cc	/^		T data;$/;"	m	class:Node	file:
+data	list/c++/agri/bitree.cc	/^		T data;$/;"	m	class:Node	file:
+data	list/c++/agri/hlist.cc	/^		T data;$/;"	m	class:Node	file:
+data	list/c++/agri/list.h	/^		T data;$/;"	m	class:Node
+data	list/c++/agri/stack.cc	/^		S *data;$/;"	m	class:Stack	file:
+data	list/c++/agri/stack.h	/^		Q *data;$/;"	m	class:Queue
+data	list/c++/agri/stack.h	/^		S *data;$/;"	m	class:Stack
+data	list/c++/agri/tree.cc	/^		T data;$/;"	m	class:Node	file:
+data	list/c++/prac/list.cc	/^		T data;$/;"	m	class:Node	file:
+data	list/list.h	/^	data_t data;$/;"	m	struct:node
+data	list/lq.h	/^	data_t data;$/;"	m	struct:node
+data	list/lstack.h	/^	data_t data;$/;"	m	struct:node
+data	list/prac/list.h	/^	data_t data;$/;"	m	struct:node
+data	list/q.h	/^	data_t *data;$/;"	m	struct:queue
+data	list/stack.h	/^	data_t *data;$/;"	m	struct:stack
+data_t	list/agri/sort.h	/^typedef int data_t;$/;"	t
+data_t	list/bilist.h	/^typedef int data_t;$/;"	t
+data_t	list/list.h	/^typedef int data_t;$/;"	t
+data_t	list/lq.h	/^typedef char data_t;$/;"	t
+data_t	list/lstack.h	/^typedef char data_t;$/;"	t
+data_t	list/prac/list.h	/^typedef int data_t;$/;"	t
+data_t	list/q.h	/^typedef char data_t;$/;"	t
+data_t	list/sort.h	/^typedef int data_t;$/;"	t
+data_t	list/stack.h	/^typedef char data_t;$/;"	t
+depthtraversal	list/c++/agri/bitree.cc	/^		void depthtraversal()$/;"	f	class:binTree
+dequeue	list/c++/agri/stack.h	/^		int dequeue(Q &d)$/;"	f	class:Queue
+dequeue	list/lq.c	/^BOOL dequeue(struct queue *q,data_t *data)$/;"	f
+dequeue	list/lq2.c	/^BOOL dequeue(struct queue *q,data_t *data)$/;"	f
+dequeue	list/q.c	/^BOOL dequeue(struct queue *q,data_t *data)$/;"	f
+enqueue	list/c++/agri/stack.h	/^		int enqueue(Q d)$/;"	f	class:Queue
+enqueue	list/lq.c	/^BOOL enqueue(struct queue *q,data_t data)$/;"	f
+enqueue	list/lq2.c	/^BOOL enqueue(struct queue *q,data_t data)$/;"	f
+enqueue	list/q.c	/^BOOL enqueue(struct queue *q,data_t data)$/;"	f
+equal	list/c++/agri/antiCir.cc	/^		bool equal(int a, int b)$/;"	f	class:Mylist
+equal	list/c++/agri/antiCir.cc	/^		virtual bool equal(T a,T b){}$/;"	f	class:List
+equal	list/c++/agri/bilist.cc	/^		bool equal(int a ,int b)$/;"	f	class:Mylist
+equal	list/c++/agri/hash.cc	/^		bool equal(const char *a,const char *b)$/;"	f	class:MyHashMap
+equal	list/c++/agri/hlist.cc	/^		bool equal(int a,int b)$/;"	f	class:Mylist
+equal	list/c++/agri/list.h	/^		bool equal(int a, int b)$/;"	f	class:Mylist
+equal	list/c++/prac/list.cc	/^		bool equal(int a, int b)$/;"	f	class:Mylist
+equal	list/c++/prac/list.cc	/^		virtual bool equal(T a,T b){}$/;"	f	class:List
+false	test-var.c	/^	false$/;"	e	enum:BOOL	file:
+first	list/c++/agri/antiCir.cc	/^		Node<T>* first;$/;"	m	class:List	file:
+first	list/c++/agri/list.h	/^		Node<T> *first;$/;"	m	class:List
+first	list/c++/prac/list.cc	/^		Node<T>* first;$/;"	m	class:List	file:
+front	list/c++/agri/stack.h	/^		int front;$/;"	m	class:Queue
+front	list/lq.h	/^	struct node *front;$/;"	m	struct:queue	typeref:struct:queue::node
+front	list/q.h	/^	int front;$/;"	m	struct:queue
+get	list/c++/agri/hash.cc	/^		bool get(T1 k,T2 &v)$/;"	f	class:HashMap
+getData	list/c++/agri/antiCir.cc	/^		T getData()$/;"	f	class:Node
+getData	list/c++/agri/bilist.cc	/^		T getData()$/;"	f	class:Node
+getData	list/c++/agri/bitree.cc	/^		T getData()$/;"	f	class:Node
+getData	list/c++/agri/hlist.cc	/^		T getData()$/;"	f	class:Node
+getData	list/c++/agri/list.h	/^		T getData()$/;"	f	class:Node
+getData	list/c++/agri/tree.cc	/^		T getData()$/;"	f	class:Node
+getData	list/c++/prac/list.cc	/^		T getData()$/;"	f	class:Node
+getHead	list/c++/agri/antiCir.cc	/^		Node<T>* getHead()$/;"	f	class:List
+getNext	list/c++/agri/antiCir.cc	/^		Node<T>* getNext()$/;"	f	class:Node
+getNext	list/c++/agri/bilist.cc	/^		Node<T> *getNext()$/;"	f	class:Node
+getNext	list/c++/agri/hash.cc	/^		Node<T1,T2>* getNext()$/;"	f	class:Node
+getNext	list/c++/agri/hlist.cc	/^		Node<T>* getNext()$/;"	f	class:Node
+getNext	list/c++/agri/list.h	/^		Node<T> *getNext()$/;"	f	class:Node
+getNext	list/c++/prac/list.cc	/^		Node<T>* getNext()$/;"	f	class:Node
+getPre	list/c++/agri/bilist.cc	/^		Node<T> *getPre()$/;"	f	class:Node
+getSibling	list/c++/agri/tree.cc	/^		Node<T>* getSibling()$/;"	f	class:Node
+getValue	list/c++/agri/hash.cc	/^		T2 getValue()$/;"	f	class:Node
+getkey	list/c++/agri/hash.cc	/^		T1 getkey()$/;"	f	class:Node
+getlChild	list/c++/agri/tree.cc	/^		Node<T>* getlChild()$/;"	f	class:Node
+getlsub	list/c++/agri/bitree.cc	/^		Node<T>* getlsub()$/;"	f	class:Node
+getrsub	list/c++/agri/bitree.cc	/^		Node<T>* getrsub()$/;"	f	class:Node
+hash	list/c++/agri/hash.cc	/^		int hash(const char* s)$/;"	f	class:MyHashMap
+hashput	list/c++/agri/hash.cc	/^		void hashput(T1 k,T2 v)$/;"	f	class:HashMap
+head	list/c++/agri/bilist.cc	/^		Node<T>* head;$/;"	m	class:List	file:
+head	list/c++/agri/hlist.cc	/^		Node<T> head;$/;"	m	class:List	file:
+headInsert	list/c++/agri/bilist.cc	/^void List<T>::headInsert(T d)$/;"	f	class:List
+height	list/c++/agri/bitree.cc	/^		int height(Node<T>* node)$/;"	f	class:binTree
+index	application/msgQ.c	/^	int index;$/;"	m	struct:msgbuf	file:
+isCircle	list/c++/agri/antiCir.cc	/^		bool isCircle()$/;"	f	class:List
+isEmpty	list/c++/agri/stack.cc	/^		bool isEmpty()$/;"	f	class:Stack
+isEmpty	list/c++/agri/stack.h	/^		bool isEmpty()$/;"	f	class:Queue
+isEmpty	list/c++/agri/stack.h	/^		bool isEmpty()$/;"	f	class:Stack
+isFull	list/c++/agri/stack.cc	/^		bool isFull()$/;"	f	class:Stack
+isFull	list/c++/agri/stack.h	/^		bool isFull()$/;"	f	class:Queue
+isFull	list/c++/agri/stack.h	/^		bool isFull()$/;"	f	class:Stack
+key	list/c++/agri/hash.cc	/^		T1 key;$/;"	m	class:Node	file:
+lastN	list/c++/agri/antiCir.cc	/^		T lastN(int n)$/;"	f	class:List
+lchild	list/c++/agri/tree.cc	/^		Node<T> *lchild,*sibling;$/;"	m	class:Node	file:
+leafNum	list/c++/agri/bitree.cc	/^		int leafNum(Node<T>* node,int k)$/;"	f	class:binTree
+len	list/q.h	/^	int len;$/;"	m	struct:queue
+len	list/stack.h	/^	int len;$/;"	m	struct:stack
+list_create	list/bilist.c	/^struct node *list_create(struct node *head, int n)$/;"	f
+list_create	list/hlist.c	/^void list_create(struct node *head,int n)$/;"	f
+list_create	list/list.c	/^struct node *list_create(int n)$/;"	f
+list_create	list/prac/list.c	/^struct node *list_create(int n)$/;"	f
+list_operation	list/bilist.c	/^void list_operation(struct node *head,void (*func)(struct node *))$/;"	f
+list_operation	list/hlist.c	/^void list_operation(struct node *head,void (*func)(struct node *))$/;"	f
+list_operation	list/list.c	/^struct node *list_operation(struct node *first,void (*func)(struct node *))$/;"	f
+list_operation	list/prac/list.c	/^void list_operation(struct node *first,void (*func)(struct node *))$/;"	f
+list_reverse	list/bilist.c	/^void list_reverse(struct node *head)$/;"	f
+list_reverse	list/hlist.c	/^void list_reverse(struct node *head)$/;"	f
+list_reverse	list/list.c	/^struct node *list_reverse(struct node *first)$/;"	f
+list_reverse	list/prac/list.c	/^struct node *list_reverse(struct node *first)$/;"	f
+lsub	list/c++/agri/bitree.cc	/^		Node<T> *lsub,*rsub;$/;"	m	class:Node	file:
+main	application/cdrom.c	/^int main()$/;"	f
+main	application/dir.c	/^int main()$/;"	f
+main	application/files.c	/^int main()$/;"	f
+main	application/fork.c	/^int main()$/;"	f
+main	application/forkexec.c	/^int main()$/;"	f
+main	application/hello.c	/^int main()$/;"	f
+main	application/msgQ.c	/^int main()$/;"	f
+main	application/sem.c	/^int main()$/;"	f
+main	application/shm.c	/^int main()$/;"	f
+main	array.c	/^void main()$/;"	f
+main	asmtest.c	/^int main()$/;"	f
+main	asphodel.c	/^void main()$/;"	f
+main	bran.c	/^void main(void)$/;"	f
+main	list/agri/main.c	/^int main()$/;"	f
+main	list/agri/test.c	/^void main()$/;"	f
+main	list/bilistmain.c	/^int main()$/;"	f
+main	list/c++/agri/antiCir.cc	/^int main()$/;"	f
+main	list/c++/agri/bilist.cc	/^int main()$/;"	f
+main	list/c++/agri/bitree.cc	/^int main()$/;"	f
+main	list/c++/agri/hash.cc	/^int main()$/;"	f
+main	list/c++/agri/hlist.cc	/^int main()$/;"	f
+main	list/c++/agri/main.cc	/^int main()$/;"	f
+main	list/c++/agri/test.cc	/^int main()$/;"	f
+main	list/c++/agri/tree.cc	/^int main()$/;"	f
+main	list/c++/prac/list.cc	/^int main()$/;"	f
+main	list/c++/test.cc	/^int main()$/;"	f
+main	list/listmain.c	/^int main()$/;"	f
+main	list/lqmain.c	/^int main()$/;"	f
+main	list/lstackmain.c	/^int main()$/;"	f
+main	list/prac/listmain.c	/^int main()$/;"	f
+main	list/prac/rand.c	/^void main()$/;"	f
+main	list/qmain.c	/^int main()$/;"	f
+main	list/sortmain.c	/^int main()$/;"	f
+main	list/stackmain.c	/^int main()$/;"	f
+main	maxarr.c	/^void main(void)$/;"	f
+main	point.c	/^void main()$/;"	f
+main	reverse.c	/^void main()$/;"	f
+main	struct.c	/^void main()$/;"	f
+main	swap.c	/^void main()$/;"	f
+main	test-var.c	/^void main()$/;"	f
+main	test_func.c	/^void main()$/;"	f
+merge	list/merge_sort.c	/^void merge(data_t a1[],int len1,data_t a2[],int len2,data_t arr[])$/;"	f
+merge	list/merge_sort2.c	/^void merge(data_t a1[],int len1,data_t a2[],int len2,data_t arr[])$/;"	f
+merge_it	list/merge_sort.c	/^void merge_it(data_t arr[],int len)$/;"	f
+merge_it	list/merge_sort2.c	/^void merge_it(data_t arr[],int len)$/;"	f
+merge_re	list/merge_sort.c	/^void merge_re(data_t arr[],int len)$/;"	f
+merge_re	list/merge_sort2.c	/^void merge_re(data_t arr[],int len)$/;"	f
+midTraversal	list/c++/agri/bitree.cc	/^		void midTraversal()$/;"	f	class:binTree
+midTraversal	list/c++/agri/bitree.cc	/^		void midTraversal(Node<T>* node)$/;"	f	class:binTree	file:
+msgbuf	application/msgQ.c	/^struct msgbuf$/;"	s	file:
+name	test-var.c	/^	char *name;$/;"	m	struct:student	file:
+next	list/bilist.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	list/c++/agri/antiCir.cc	/^		Node<T> *next;$/;"	m	class:Node	file:
+next	list/c++/agri/bilist.cc	/^		Node<T>* next;$/;"	m	class:Node	file:
+next	list/c++/agri/hash.cc	/^		Node<T1,T2>* next;$/;"	m	class:Node	file:
+next	list/c++/agri/hlist.cc	/^		Node<T>* next;$/;"	m	class:Node	file:
+next	list/c++/agri/list.h	/^		Node<T> *next;$/;"	m	class:Node
+next	list/c++/prac/list.cc	/^		Node<T> *next;$/;"	m	class:Node	file:
+next	list/list.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	list/lq.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	list/lstack.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	list/prac/list.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+node	list/bilist.h	/^struct node$/;"	s
+node	list/list.h	/^struct node$/;"	s
+node	list/lq.h	/^struct node$/;"	s
+node	list/lstack.h	/^struct node$/;"	s
+node	list/prac/list.h	/^struct node$/;"	s
+nodeDelete	list/c++/agri/bilist.cc	/^void List<T>::nodeDelete(T d)$/;"	f	class:List
+nodeDelete	list/c++/agri/hlist.cc	/^void List<T>::nodeDelete(T d)$/;"	f	class:List
+nodeInsert	list/c++/agri/hlist.cc	/^void List<T>::nodeInsert(T d)$/;"	f	class:List
+nodeInsert	list/c++/agri/list.h	/^void List<T>::nodeInsert(T d)$/;"	f	class:List
+nodeNum	list/c++/agri/bitree.cc	/^		int nodeNum(Node<T>* node)$/;"	f	class:binTree
+node_create	list/bilist.c	/^struct node *node_create(data_t data)$/;"	f
+node_create	list/hlist.c	/^struct node *node_create(data_t data)$/;"	f
+node_create	list/list.c	/^struct node *node_create(data_t data)$/;"	f
+node_create	list/prac/list.c	/^struct node *node_create(data_t data)$/;"	f
+node_delete	list/bilist.c	/^void node_delete(struct node *head,data_t data)$/;"	f
+node_delete	list/hlist.c	/^void node_delete(struct node *head,data_t data)$/;"	f
+node_delete	list/list.c	/^struct node *node_delete(struct node *first,data_t data)$/;"	f
+node_delete	list/prac/list.c	/^struct node *node_delete(struct node *first,data_t data)$/;"	f
+node_free	list/bilist.c	/^void node_free(struct node *node)$/;"	f
+node_free	list/hlist.c	/^void node_free(struct node *node)$/;"	f
+node_free	list/list.c	/^void node_free(struct node *node)$/;"	f
+node_free	list/prac/list.c	/^void node_free(struct node *node)$/;"	f
+node_insert	list/hlist.c	/^void node_insert(struct node *head,data_t data)$/;"	f
+node_insert	list/list.c	/^struct node *node_insert(struct node *first,data_t data)$/;"	f
+node_insert	list/prac/list.c	/^struct node *node_insert(struct node *first,data_t data)$/;"	f
+node_insert1	list/bilist.c	/^struct node *node_insert1(struct node *head,data_t data)$/;"	f
+node_insert2	list/bilist.c	/^struct node *node_insert2(struct node *head,data_t data)$/;"	f
+node_show	list/bilist.c	/^void node_show(struct node *node)$/;"	f
+node_show	list/hlist.c	/^void node_show(struct node *node)$/;"	f
+node_show	list/list.c	/^void node_show(struct node *node)$/;"	f
+node_show	list/prac/list.c	/^void node_show(struct node *node)$/;"	f
+nodedelete	list/c++/agri/list.h	/^void List<T>::nodedelete(T d)$/;"	f	class:List
+num	reverse.c	/^int num(int val)$/;"	f
+ou	list/c++/agri/test.cc	/^		int ou()$/;"	f	class:B
+ou	list/c++/agri/test.cc	/^		virtual T ou(){}$/;"	f	class:A
+p	test-var.c	/^		int p;$/;"	m	struct:student::__anon5	file:
+pop	list/c++/agri/stack.cc	/^		bool pop(S &d)$/;"	f	class:Stack
+pop	list/c++/agri/stack.h	/^		bool pop(S &d)$/;"	f	class:Stack
+postTraversal	list/c++/agri/bitree.cc	/^		void postTraversal()$/;"	f	class:binTree
+postTraversal	list/c++/agri/bitree.cc	/^		void postTraversal(Node<T>* node)$/;"	f	class:binTree	file:
+postTraversal	list/c++/agri/tree.cc	/^		void postTraversal()$/;"	f	class:Tree
+postTraversal	list/c++/agri/tree.cc	/^		void postTraversal(Node<T>* node)$/;"	f	class:Tree
+pre	list/bilist.h	/^	struct node *pre;$/;"	m	struct:node	typeref:struct:node::node
+pre	list/c++/agri/bilist.cc	/^		Node<T>* pre;$/;"	m	class:Node	file:
+preTraversal	list/c++/agri/bitree.cc	/^		void preTraversal()$/;"	f	class:binTree
+preTraversal	list/c++/agri/bitree.cc	/^		void preTraversal(Node<T>* node)$/;"	f	class:binTree	file:
+preTraversal	list/c++/agri/tree.cc	/^		void preTraversal()$/;"	f	class:Tree
+preTraversal	list/c++/agri/tree.cc	/^		void preTraversal(Node<T>* node)$/;"	f	class:Tree
+push	list/c++/agri/stack.cc	/^		bool push(S d)$/;"	f	class:Stack
+push	list/c++/agri/stack.h	/^		bool push(S d)$/;"	f	class:Stack
+queue	list/lq.h	/^struct queue$/;"	s
+queue	list/q.h	/^struct queue$/;"	s
+queue_create	list/lq.c	/^struct queue *queue_create()$/;"	f
+queue_create	list/lq2.c	/^struct queue *queue_create()$/;"	f
+queue_create	list/q.c	/^struct queue *queue_create(int len)$/;"	f
+queue_destory	list/lq.c	/^void queue_destory(struct queue *q)$/;"	f
+queue_destory	list/lq2.c	/^void queue_destory(struct queue *q)$/;"	f
+queue_destroy	list/q.c	/^void queue_destroy(struct queue *q)$/;"	f
+queue_is_empty	list/lq.c	/^BOOL queue_is_empty(struct queue *q)$/;"	f
+queue_is_empty	list/lq2.c	/^BOOL queue_is_empty(struct queue *q)$/;"	f
+queue_is_empty	list/q.c	/^BOOL queue_is_empty(struct queue *q)$/;"	f
+queue_is_full	list/q.c	/^BOOL queue_is_full(struct queue *q)$/;"	f
+quick	list/agri/sort_quick.c	/^int quick(data_t arr[],int len)$/;"	f
+rear	list/c++/agri/stack.h	/^		int rear;$/;"	m	class:Queue
+rear	list/lq.h	/^	struct node *rear;$/;"	m	struct:queue	typeref:struct:queue::node
+rear	list/q.h	/^	int rear;$/;"	m	struct:queue
+reverse	list/c++/agri/bilist.cc	/^void List<T>::reverse()$/;"	f	class:List
+reverse1	list/c++/agri/hlist.cc	/^void List<T>::reverse1()$/;"	f	class:List
+reverse1	list/c++/agri/list.h	/^void List<T>::reverse1()$/;"	f	class:List
+reverse2	list/c++/agri/hlist.cc	/^void List<T>::reverse2()$/;"	f	class:List
+reverse2	list/c++/agri/list.h	/^void List<T>::reverse2()$/;"	f	class:List
+reverse3	list/c++/agri/hlist.cc	/^void List<T>::reverse3()$/;"	f	class:List
+reverse3	list/c++/agri/list.h	/^void List<T>::reverse3()$/;"	f	class:List
+root	list/c++/agri/bitree.cc	/^		Node<T>* root;$/;"	m	class:binTree	file:
+root	list/c++/agri/tree.cc	/^		Node<T>* root;$/;"	m	class:Tree	file:
+rsub	list/c++/agri/bitree.cc	/^		Node<T> *lsub,*rsub;$/;"	m	class:Node	file:
+s	test-var.c	/^} s;$/;"	v	typeref:struct:student
+search	list/agri/sort_bin.c	/^int search(data_t arr[], int len,data_t data)$/;"	f
+sem_init	application/sem.c	/^void sem_init(int semid,int val)$/;"	f
+sem_p	application/sem.c	/^void sem_p(int semid)$/;"	f
+sem_v	application/sem.c	/^void sem_v(int semid)$/;"	f
+semun	application/sem.c	/^union semun{$/;"	u	file:
+setCross	list/c++/agri/antiCir.cc	/^		void setCross(Node<T>* first2)$/;"	f	class:List
+setLoop	list/c++/agri/antiCir.cc	/^		void setLoop()$/;"	f	class:List
+setNext	list/c++/agri/antiCir.cc	/^		void setNext(Node<T>* node)$/;"	f	class:Node
+setNext	list/c++/agri/bilist.cc	/^		void setNext(Node<T>* node)$/;"	f	class:Node
+setNext	list/c++/agri/hash.cc	/^		void setNext(Node<T1,T2>* node)$/;"	f	class:Node
+setNext	list/c++/agri/hlist.cc	/^		void *setNext(Node<T>* node)$/;"	f	class:Node
+setNext	list/c++/agri/list.h	/^		void setNext(Node<T> *node)$/;"	f	class:Node
+setNext	list/c++/prac/list.cc	/^		void setNext(Node<T>* node)$/;"	f	class:Node
+setPre	list/c++/agri/bilist.cc	/^		void setPre(Node<T>* node)$/;"	f	class:Node
+setSibling	list/c++/agri/tree.cc	/^		void setSibling(Node<T>* node)$/;"	f	class:Node
+setValue	list/c++/agri/hash.cc	/^		void setValue(T2 v)$/;"	f	class:Node
+setlChild	list/c++/agri/tree.cc	/^		void setlChild(Node<T>* node)$/;"	f	class:Node
+setlsub	list/c++/agri/bitree.cc	/^		void setlsub(Node<T>* node)$/;"	f	class:Node
+setrsub	list/c++/agri/bitree.cc	/^		void setrsub(Node<T>* node)$/;"	f	class:Node
+show	list/c++/test.cc	/^		void show()$/;"	f	class:Test
+show	point.c	/^int show(int a[])$/;"	f
+sibling	list/c++/agri/tree.cc	/^		Node<T> *lchild,*sibling;$/;"	m	class:Node	file:
+size	list/c++/agri/stack.cc	/^		int size;$/;"	m	class:Stack	file:
+size	list/c++/agri/stack.h	/^		int size;$/;"	m	class:Queue
+size	list/c++/agri/stack.h	/^		int size;$/;"	m	class:Stack
+sort_binary	list/agri/sort_bin.c	/^void sort_binary(data_t arr[],int len)$/;"	f
+sort_bubble	list/agri/sort_bubble.c	/^void sort_bubble(data_t arr[],int len)$/;"	f
+sort_heap	list/heap_sort.c	/^void sort_heap(data_t arr[],int len)$/;"	f
+sort_heap	list/heap_sort2.c	/^void sort_heap(data_t arr[],int len)$/;"	f
+sort_insert	list/agri/sort_insert.c	/^void sort_insert(data_t arr[],int len)$/;"	f
+sort_quick	list/agri/sort_quick.c	/^void sort_quick(data_t arr[],int len)$/;"	f
+sort_select	list/agri/sort_select.c	/^void sort_select(data_t arr[],int len)$/;"	f
+sort_shell	list/agri/sort_shell.c	/^void sort_shell(data_t arr[],int len)$/;"	f
+sp	list/c++/agri/stack.cc	/^		int sp;$/;"	m	class:Stack	file:
+sp	list/c++/agri/stack.h	/^		int sp;$/;"	m	class:Stack
+sp	list/lstack.h	/^	struct node *sp;$/;"	m	struct:stack	typeref:struct:stack::node
+sp	list/stack.h	/^	int sp;$/;"	m	struct:stack
+stack	list/lstack.h	/^struct stack$/;"	s
+stack	list/stack.h	/^struct stack$/;"	s
+stack_create	list/lstack.c	/^struct stack *stack_create()$/;"	f
+stack_create	list/stack.c	/^struct stack *stack_create(int len)$/;"	f
+stack_destory	list/stack.c	/^void stack_destory(struct stack *s)$/;"	f
+stack_destroy	list/lstack.c	/^void stack_destroy(struct stack *s)$/;"	f
+stack_is_empty	list/lstack.c	/^BOOL stack_is_empty(struct stack *s)$/;"	f
+stack_is_empty	list/stack.c	/^BOOL stack_is_empty(struct stack *s)$/;"	f
+stack_is_full	list/stack.c	/^BOOL stack_is_full(struct stack *s)$/;"	f
+stack_pop	list/lstack.c	/^BOOL stack_pop(struct stack*s,data_t *data)$/;"	f
+stack_pop	list/stack.c	/^BOOL stack_pop(struct stack *s,data_t *data)$/;"	f
+stack_push	list/lstack.c	/^BOOL stack_push(struct stack *s,data_t data)$/;"	f
+stack_push	list/stack.c	/^BOOL stack_push(struct stack *s,data_t data)$/;"	f
+stackmid	list/c++/agri/bitree.cc	/^		void stackmid()$/;"	f	class:binTree
+stackpost	list/c++/agri/bitree.cc	/^		void stackpost()$/;"	f	class:binTree
+stackpre	list/c++/agri/bitree.cc	/^		void stackpre()$/;"	f	class:binTree
+student	test-var.c	/^struct student{$/;"	s	file:
+subNum	list/c++/agri/bitree.cc	/^		int subNum(Node<T>* node)$/;"	f	class:binTree
+swap	swap.c	/^void swap(int *a,int *b)$/;"	f
+tail	list/list.c	/^struct node *tail(struct node *first,data_t data)$/;"	f
+tailInert	list/c++/agri/bilist.cc	/^void List<T>::tailInert(T d)$/;"	f	class:List
+test	maxarr.c	/^int test(int *arr,int len)$/;"	f
+test	test_func.h	/^static inline void test()$/;"	f
+test	test_func_sub.c	/^void test()$/;"	f
+top	list/c++/agri/stack.h	/^		void top(S &d)$/;"	f	class:Stack
+traversal	list/c++/agri/bilist.cc	/^void List<T>::traversal()$/;"	f	class:List
+traversal	list/c++/agri/hlist.cc	/^void List<T>::traversal()$/;"	f	class:List
+traversal	list/c++/agri/list.h	/^void List<T>::traversal()$/;"	f	class:List
+true	test-var.c	/^	true,$/;"	e	enum:BOOL	file:
+u	test-var.c	/^} u;$/;"	v	typeref:union:A
+val	application/sem.c	/^	int val;$/;"	m	union:semun	file:
+value	list/c++/agri/hash.cc	/^		T2 value;$/;"	m	class:Node	file:
+visit	list/c++/agri/antiCir.cc	/^		void visit(Node<T>* node)$/;"	f	class:List
+visit	list/c++/agri/bilist.cc	/^void List<T>::visit(Node<T>* node)$/;"	f	class:List
+visit	list/c++/agri/bitree.cc	/^		void visit(Node<T> *node)$/;"	f	class:binTree
+visit	list/c++/agri/hlist.cc	/^void List<T>::visit(Node<T>* node)$/;"	f	class:List
+visit	list/c++/agri/list.h	/^void List<T>::visit(Node<T> *node)$/;"	f	class:List
+visit	list/c++/agri/tree.cc	/^		void visit(Node<T>* node)$/;"	f	class:Tree
+visit	list/c++/prac/list.cc	/^		void visit(Node<T>* node)$/;"	f	class:List
+widetraversal	list/c++/agri/bitree.cc	/^		void widetraversal()$/;"	f	class:binTree
+~HashMap	list/c++/agri/hash.cc	/^		~HashMap()$/;"	f	class:HashMap
+~List	list/c++/agri/antiCir.cc	/^		~List()$/;"	f	class:List
+~List	list/c++/agri/bilist.cc	/^List<T>::~List()$/;"	f	class:List
+~List	list/c++/agri/hlist.cc	/^List<T>::~List()$/;"	f	class:List
+~List	list/c++/agri/list.h	/^List<T>::~List()$/;"	f	class:List
+~List	list/c++/prac/list.cc	/^		~List()$/;"	f	class:List
+~Queue	list/c++/agri/stack.h	/^		~Queue(){}$/;"	f	class:Queue
+~Test	list/c++/test.cc	/^		~Test()$/;"	f	class:Test

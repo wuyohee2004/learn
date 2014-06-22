@@ -1,0 +1,132 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<iostream>
+
+using namespace std;
+
+template <typename T>
+class Node
+{
+	private:
+		T data;
+		Node<T> *lsub,*rsub;
+	public:
+		Node(T d)
+		{
+			data = d;
+			lsub = NULL;
+			rsub = NULL;
+		}
+		void setlsub(Node<T>* node)
+		{
+			lsub = node;
+		}
+		void setrsub(Node<T>* node)
+		{
+			rsub = node;
+		}
+		Node<T>* getlsub()
+		{
+			return lsub;
+		}
+		Node<T>* getrsub()
+		{
+			return rsub;
+		}
+		T getData()
+		{
+			return data;
+		}
+};
+
+template<typename T>
+class binTree
+{
+	private:
+		Node<T>* root;
+		void preTraversal(Node<T>* node)
+		{
+			if(node == NULL)
+				return;
+			visit(node);
+			cout << "left:";
+			preTraversal(node->getlsub());
+			cout << "right:";
+			preTraversal(node->getrsub());
+		}
+
+		void midTraversal(Node<T>* node)
+		{
+			if(node == NULL)
+				return;
+			midTraversal(node->getlsub());
+			visit(node);
+			midTraversal(node->getrsub());
+		}
+		void postTraversal(Node<T>* node)
+		{
+			if(node == NULL)
+				return;
+			postTraversal(node->getlsub());
+			postTraversal(node->getlsub());
+			visit(node);
+		}
+
+	public:
+		binTree()
+		{
+			root = NULL;
+		}
+		
+		binTree(int n)
+		{
+			root = create(n);
+		}
+
+		Node<T>* create(int n)
+		{
+			if(n < 0)
+				return NULL;
+			Node<T>* node = new Node<T>(n);
+			node->setlsub(create(n-1));
+			node->setrsub(create(n-2));
+			return node;
+		}
+		
+		void preTraversal()
+		{
+			preTraversal(root);
+		}
+
+		void midTraversal()
+		{
+			midTraversal(root);
+		}
+
+		void postTraversal()
+		{
+			postTraversal(root);
+		}
+
+		void visit(Node<T> *node)
+		{
+			cout << node->getData() << " ";
+		}
+
+};
+
+int main()
+{
+	binTree<int> tree(3);
+	tree.preTraversal();
+	cout << endl;
+	tree.midTraversal();
+	cout << endl;
+	tree.postTraversal();
+	cout << endl;
+}
+
+			
+		
+
+			
